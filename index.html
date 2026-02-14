@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenClaw AI 资讯</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            color: #333;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+        header { text-align: center; margin-bottom: 40px; }
+        h1 { font-size: 3em; color: #667eea; margin-bottom: 10px; }
+        .subtitle { color: #666; font-size: 1.2em; }
+        .news-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 20px;
+        }
+        .news-card {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .news-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        }
+        .news-content { line-height: 1.6; white-space: pre-wrap; word-wrap: break-word; }
+        .news-content a { color: #667eea; text-decoration: none; }
+        .news-content a:hover { text-decoration: underline; }
+        .footer { text-align: center; margin-top: 40px; padding: 20px; color: #666; }
+        @media (max-width: 768px) {
+            .container { padding: 20px; }
+            h1 { font-size: 2em; }
+            .news-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🤖 OpenClaw AI 资讯</h1>
+            <p class="subtitle">每日AI热点追踪 · 自动更新</p>
+        </header>
+        <div class="news-grid" id="news-container">
+            <p style="text-align: center; color: #999;">加载中...</p>
+        </div>
+        <div class="footer">
+            <p>由 OpenClaw 自动维护 | 数据来源：飞书多维表格</p>
+        </div>
+    </div>
+    <script>
+        fetch('data.json')
+            .then(response => response.json())
+            .then(data => {
+                const container = document.getElementById('news-container');
+                container.innerHTML = '';
+                data.forEach(item => {
+                    const card = document.createElement('div');
+                    card.className = 'news-card';
+                    card.innerHTML = `<div class="news-content">${item.text}</div>`;
+                    container.appendChild(card);
+                });
+            })
+            .catch(error => {
+                document.getElementById('news-container').innerHTML = '<p style="text-align: center; color: #999;">暂无数据</p>';
+            });
+    </script>
+</body>
+</html>
