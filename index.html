@@ -65,6 +65,14 @@
         </div>
     </div>
     <script>
+        // 自动将文本中的URL转换为可点击链接
+        function linkify(text) {
+            const urlRegex = /(https?:\/\/[^\s]+)/g;
+            return text.replace(urlRegex, function(url) {
+                return '<a href="' + url + '" target="_blank">' + url + '</a>';
+            });
+        }
+
         fetch('data.json')
             .then(response => response.json())
             .then(data => {
@@ -73,7 +81,9 @@
                 data.forEach(item => {
                     const card = document.createElement('div');
                     card.className = 'news-card';
-                    card.innerHTML = `<div class="news-content">${item.text}</div>`;
+                    // 使用linkify函数转换URL
+                    const linkedText = linkify(item.text);
+                    card.innerHTML = `<div class="news-content">${linkedText}</div>`;
                     container.appendChild(card);
                 });
             })
