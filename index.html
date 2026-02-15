@@ -2,10 +2,16 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>OpenClaw AI 资讯</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        html, body {
+            overflow-x: hidden;
+            width: 100%;
+        }
+        
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -13,37 +19,81 @@
             padding: 20px;
             color: #333;
         }
+        
         .container {
             max-width: 1400px;
+            width: 100%;
             margin: 0 auto;
             background: rgba(255, 255, 255, 0.95);
             border-radius: 20px;
             padding: 40px;
             box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            box-sizing: border-box;
         }
+        
         header { text-align: center; margin-bottom: 40px; }
-        h1 { font-size: 3em; color: #667eea; margin-bottom: 10px; }
+        h1 { font-size: 3em; color: #667eea; margin-bottom: 10px; word-wrap: break-word; }
         .subtitle { color: #666; font-size: 1.2em; }
+        
         .news-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(min(350px, 100%), 1fr));
+            grid-template-columns: 1fr;
             gap: 20px;
+            width: 100%;
         }
+        
         .news-card {
             background: white;
             border-radius: 10px;
             padding: 20px;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
+            width: 100%;
+            box-sizing: border-box;
+            overflow-wrap: break-word;
+            word-wrap: break-word;
         }
+        
         .news-card:hover {
             transform: translateY(-5px);
             box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
         }
-        .news-content { line-height: 1.6; white-space: pre-wrap; word-wrap: break-word; }
-        .news-content a { color: #667eea; text-decoration: none; }
+        
+        .news-content { 
+            line-height: 1.6; 
+            white-space: pre-wrap; 
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+            word-break: break-word;
+        }
+        
+        .news-content a { 
+            color: #667eea; 
+            text-decoration: none; 
+            word-break: break-all;
+        }
+        
         .news-content a:hover { text-decoration: underline; }
-        .footer { text-align: center; margin-top: 40px; padding: 20px; color: #666; }
+        
+        .footer { 
+            text-align: center; 
+            margin-top: 40px; 
+            padding: 20px; 
+            color: #666; 
+        }
+        
+        @media (min-width: 768px) {
+            .news-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        
+        @media (min-width: 1200px) {
+            .news-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+        
         @media (max-width: 768px) {
             body {
                 padding: 10px;
@@ -63,13 +113,11 @@
             }
             
             .news-grid {
-                grid-template-columns: 1fr;
                 gap: 15px;
             }
 
             .news-card {
                 padding: 15px;
-                border-radius: 10px;
             }
 
             .news-content {
@@ -78,12 +126,17 @@
         }
 
         @media (max-width: 480px) {
+            body {
+                padding: 5px;
+            }
+            
             h1 {
                 font-size: 1.6em;
             }
 
             .container {
                 padding: 15px;
+                border-radius: 10px;
             }
 
             .news-grid {
@@ -92,6 +145,7 @@
 
             .news-card {
                 padding: 12px;
+                border-radius: 8px;
             }
 
             .news-content {
