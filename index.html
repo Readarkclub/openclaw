@@ -181,7 +181,9 @@
             .then(data => {
                 const container = document.getElementById('news-container');
                 container.innerHTML = '';
-                data.forEach(item => {
+                // 反转数组，让最新的消息显示在最前面
+                const reversedData = data.slice().reverse();
+                reversedData.forEach(item => {
                     const card = document.createElement('div');
                     card.className = 'news-card';
                     // 使用linkify函数转换URL
