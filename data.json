@@ -376,5 +376,53 @@
   },
   {
     "text": "【行业观察】第四次工业革命 - ABC News深度报道AI快速演进，2月5日OpenAI和Anthropic同日发布GPT-5.3 Codex与Opus 4.6两大新模型。来源: ABC News | 时间: 5小时前"
+  },
+  {
+    "text": "【AI视频日报 2026-02-17】过去一周热门AI视频精选"
+  },
+  {
+    "text": "📹 1. Gemini vs ChatGPT vs Claude vs Grok vs Perplexity 大对比\n频道: Paul's Tech\n发布: 1周前\n链接: https://www.youtube.com/watch?v=qan82QT8Ql4\n\n【内容概述】\n详细对比了当前最流行的5大AI聊天助手（Gemini、ChatGPT、Claude、Grok、Perplexity），展示了每个工具的最佳使用场景和独特优势。\n\n【适合人群】\n想要选择最适合自己需求的AI工具的用户，AI工具初学者"
+  },
+  {
+    "text": "📹 2. Claude Opus 4.6发布 与 GPT-5.3 Codex 硬刚\n频道: French AI News\n发布: 5天前\n链接: https://www.youtube.com/watch?v=ge5Pw-75AYo\n\n【内容概述】\nAnthropic发布Claude Opus 4.6并在基准测试中表现出色，OpenAI随即在20分钟后发布GPT-5.3 Codex回应。同时SpaceX与xAI合并达成巨额交易。\n\n【适合人群】\n关注AI行业动态的开发者，AI模型研究者"
+  },
+  {
+    "text": "📹 3. Claude + Excel Agent Mode 自动化魔法\n频道: AI Copilot Tutorials\n发布: 2天前\n链接: https://www.youtube.com/watch?v=iyculEdLUDY\n\n【内容概述】\n演示如何在Excel中使用Microsoft Copilot的Agent Mode，结合Anthropic Claude Opus和OpenAI GPT 5.2分析FIFA世界杯数据。\n\n【适合人群】\n办公自动化爱好者，数据分析师，Excel高级用户"
+  },
+  {
+    "text": "📹 4. Anthropic CEO：Claude是否有意识？我们把它当作有来对待\n频道: Interesting Times Podcast\n发布: 2天前\n链接: https://www.youtube.com/watch?v=750JpkYNoWQ\n\n【内容概述】\nAnthropic首席执行官Dario Amodei讨论AI意识的哲学问题，以及为什么Anthropic选择以Claude可能具有意识的方式来对待它。\n\n【适合人群】\n对AI伦理感兴趣的人，哲学爱好者，AI研究者"
+  },
+  {
+    "text": "📹 5. 2026最佳AI视频生成器！Sora vs Veo vs Grok vs Kling\n频道: Higgsfield AI\n发布: 3天前\n链接: https://www.youtube.com/watch?v=m6mV3LoiG-4\n\n【内容概述】\n全面对比测试四大AI视频生成工具：Sora 2 Pro、Veo 3.1、Grok Imagine和Kling，展示各自优势和适用场景。\n\n【适合人群】\n视频创作者，AIGC从业者，内容制作人"
+  },
+  {
+    "text": "📹 6. AI在24小时内构建完整Game Boy模拟器\n频道: AI Dev Labs\n发布: 1天前\n链接: https://www.youtube.com/watch?v=rdL5GNjYuME\n\n【内容概述】\n展示2026年AI的惊人能力：GLM-5在24小时内构建了完整的Game Boy模拟器，Seedance 2.0让Sora看起来过时，Gemini和DeepSeek也有新突破。\n\n【适合人群】\n开发者，游戏爱好者，AI能力观察者"
+  },
+  {
+    "text": "📹 7. Seedance 2.0：超越Sora 2和Veo 3的新王者\n频道: AI Video News\n发布: 5天前\n链接: https://www.youtube.com/watch?v=9UGzDYXxLT0\n\n【内容概述】\n详细介绍Seedance 2.0的技术预览版，这款来自字节跳动的AI视频生成器被认为超越了Sora 2和Veo 3。\n\n【适合人群】\nAI视频技术爱好者，视频创作者，中国AI发展关注者"
+  },
+  {
+    "text": "📹 8. DeepSeek V4将于2月17日发布，这是个大问题\n频道: AI Analysis\n发布: 1天前\n链接: https://www.youtube.com/watch?v=7QVYXWGJukA\n\n【内容概述】\nDeepSeek V4，一个万亿参数的AI模型，定于2月17日发布。泄露的基准测试显示它在编程任务上超越了Claude和GPT。\n\n【适合人群】\n关注中国AI发展的用户，大模型研究者，开发者"
+  },
+  {
+    "text": "📹 9. 中国AI正在超越美国吗？\n频道: CNN\n发布: 4天前\n链接: https://www.youtube.com/watch?v=y2mvbykvcaE\n\n【内容概述】\nCNN报道：自DeepSeek在2025年初以强大的模型震惊世界以来，中国AI产业蓬勃发展。探讨中国在AI领域的进步是否正在超越美国。\n\n【适合人群】\n关注中美AI竞争的用户，科技行业观察者"
+  },
+  {
+    "text": "📹 10. Elon Musk的Grok超越DeepSeek成为第三大AI聊天机器人\n频道: Tech News Daily\n发布: 4天前\n链接: https://www.youtube.com/watch?v=vJd-VOgFrnM\n\n【内容概述】\nxAI开发的Grok在1月份网站流量上超越了中国竞争对手DeepSeek，成为全球第三大AI聊天机器人。\n\n【适合人群】\nAI行业动态关注者，Elon Musk粉丝，竞品分析者"
+  },
+  {
+    "text": "📹 11. AI会取代开发者吗？2026年的真实情况\n频道: Web Dev Simplified\n发布: 3天前\n链接: https://www.youtube.com/watch?v=xmtRCBX0yT0\n\n【内容概述】\n诚实讨论AI是否会取代软件工程师。编程是否已死？还是只是进化了？深入分析AI时代开发者的未来。\n\n【适合人群】\n程序员，软件工程师，计算机专业学生"
+  },
+  {
+    "text": "📹 12. GitHub Agentic Workflows - 意图驱动的仓库自动化\n频道: GitHub\n发布: 3天前\n链接: https://www.youtube.com/watch?v=3_i03fGXs9U\n\n【内容概述】\nGitHub介绍在AI编程代理时代的仓库自动化新方式，如何在保证安全的前提下实现高效的自动化工作流。\n\n【适合人群】\nDevOps工程师，GitHub用户，自动化开发者"
+  },
+  {
+    "text": "📹 13. Codex vs Opus - AI编程工具的新纪元\n频道: AI Code Review\n发布: 5天前\n链接: https://www.youtube.com/watch?v=5dFzdesZWDc\n\n【内容概述】\n讨论OpenAI和Anthropic相隔几分钟发布最新前沿模型后的AI编程竞争格局，对比GPT Codex和Claude Opus在编程任务上的表现。\n\n【适合人群】\n开发者，AI编程工具用户，技术决策者"
+  },
+  {
+    "text": "📹 14. Microsoft抛弃OpenAI？开发自己的前沿模型\n频道: AI Industry News\n发布: 3天前\n链接: https://www.youtube.com/watch?v=G-YA9EHqe5Q\n\n【内容概述】\n微软计划放弃使用OpenAI的模型，转而开发自己的前沿模型。OpenAI的裂痕正在扩大，Sam Altman称DeepSeek在窃取AI模型。\n\n【适合人群】\n科技行业观察者，微软生态用户，AI商业分析师"
+  },
+  {
+    "text": "📹 15. xAI Grok Imagine视频生成AI详解 - 免费创建Sora/Veo级视频\n频道: Japanese AI Tech\n发布: 4天前\n链接: https://www.youtube.com/watch?v=0cYPwxg8le8\n\n【内容概述】\nxAI在2026年2月初发布了最新的视频生成AI模型Grok Imagine，这是之前集成在Grok聊天中的视频生成功能的强化版，可免费使用。\n\n【适合人群】\n视频创作者，xAI/Grok用户，免费工具爱好者"
   }
 ]
