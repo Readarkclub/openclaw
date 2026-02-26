@@ -109,5 +109,29 @@
   },
   {
     "text": "8. 深度对比：如何选择最适合你的国产AI大模型？\\n摘要：知乎专栏文章，详细对比了七款国产AI大模型，为用户在不同场景下（如长文本处理、性价比、多功能办公）提供了选择建议。\\n链接：https://zhuanlan.zhihu.com/p/1978403099040322312"
+  },
+  {
+    "text": "GPT-5系列模型逐步上线: OpenAI开始向付费用户推出GPT-5.1和GPT-5.2系列模型（包括Instant, Thinking, Pro版本），提供更强大的功能。\\n来源: https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+  },
+  {
+    "text": "ChatGPT图片功能升级: 全新的图片生成模型已在ChatGPT中上线，提供更精准的编辑、更一致的细节和高达4倍的生成速度。\\n来源: https://openai.com/index/new-chatgpt-images-is-here/"
+  },
+  {
+    "text": "Claude Cowork工具集成新应用: 为提升办公效率，Claude Cowork现已支持与Google Drive, Gmail, DocuSign和FactSet等应用集成。\\n来源: https://www.cnbc.com/2026/02/24/anthropic-claude-cowork-office-worker.html"
+  },
+  {
+    "text": "Anthropic与美国军方在安全护栏上存在分歧: 美国国防部在使用Claude的同时，对其安全限制表示担忧，双方关系紧张。\\n来源: https://www.theguardian.com/us-news/2026/feb/24/anthropic-claude-military-ai"
+  },
+  {
+    "text": "黑客被曝利用Claude窃取墨西哥政府数据: 据报道，有黑客利用Claude从墨西哥政府机构窃取了大量敏感的税务和选民信息。\\n来源: https://www.bloomberg.com/news/articles/2026-02-25/hacker-used-anthropic-s-claude-to-steal-sensitive-mexican-data"
+  },
+  {
+    "text": "智谱GLM-5实现硬件自主: GLM-5模型完全基于华为昇腾（Ascend）芯片进行训练，摆脱了对美国半导体的依赖。\\n来源: https://www.euronews.com/next/2026/02/17/these-are-chinas-new-ai-models-that-have-just-been-released-ahead-of-the-lunar-new-year"
+  },
+  {
+    "text": "智谱GLM4性能超越GPT-4: 智谱AI声称其最新的GLM4大模型在某些指标上已经超越了OpenAI的GPT-4。\\n来源: https://www.reuters.com/technology/artificial-intelligence/chinas-ai-firms-take-spotlight-with-deals-low-cost-models-2025-02-14/"
+  },
+  {
+    "text": "国内大模型API价格战持续: 以智谱AI和字节跳动为首的公司大幅降低其大模型API的调用价格，市场竞争激烈。\\n来源: https://recodechinaai.substack.com/p/top-10-chinas-ai-stories-in-2024"
   }
 ]
