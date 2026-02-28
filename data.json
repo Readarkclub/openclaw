@@ -81,12 +81,6 @@
     "text": "豆包凭借 \"懂梗\" 圈粉 Z 世代\n豆包因个性化和懂梗能力受年轻用户欢迎。\nhttps://blog.csdn.net/EnjoyEDU/article/details/148221701"
   },
   {
-    "text": "Clawra对雷老师的语音留言"
-  },
-  {
-    "text": "Clawra对雷老师的语音留言"
-  },
-  {
     "text": "1. OpenAI发布GPT-5.1，将逐步向所有用户开放\\n摘要：OpenAI在其发布说明中提到，GPT-5.1的Instant和Thinking版本将首先向付费用户推出，随后逐步覆盖免费用户。\\n链接：https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
   },
   {
@@ -133,5 +127,41 @@
   },
   {
     "text": "国内大模型API价格战持续: 以智谱AI和字节跳动为首的公司大幅降低其大模型API的调用价格，市场竞争激烈。\\n来源: https://recodechinaai.substack.com/p/top-10-chinas-ai-stories-in-2024"
+  },
+  {
+    "text": "OpenAI 发布 GPT-5.2\\n摘要: OpenAI 正式推出 GPT-5.2，并已在 ChatGPT 中可用，该模型为专业工作、编码和长期代理任务而构建。\\n链接: https://openai.com/chatgpt/overview/"
+  },
+  {
+    "text": "OpenAI 推出 ChatGPT Go\\n摘要: OpenAI 在全球范围推出 ChatGPT Go，提供对 GPT-5.2 Instant 的更广泛访问、更高的使用限制和更长的记忆，旨在让先进AI更实惠。\\n链接: https://openai.com/index/introducing-chatgpt-go/"
+  },
+  {
+    "text": "OpenAI 宣布将停用 GPT-4o 等旧模型\\n摘要: 官方宣布，将于2026年2月13日停用 ChatGPT 中的 GPT-4o, GPT-4.1, GPT-4.1 mini 及 o4-mini 模型。\\n链接: https://openai.com/index/retiring-gpt-4o-and-older-models/"
+  },
+  {
+    "text": "OpenAI 完成 1100 亿美元新一轮融资\\n摘要: OpenAI 在新一轮融资中筹集了1100亿美元，使其估值达到8400亿美元，显示出AI领域投资的热潮。\\n链接: https://www.reuters.com/technology/artificial-intelligence/"
+  },
+  {
+    "text": "Anthropic 与美国政府关系紧张，或被列入黑名单\\n摘要: 特朗普政府计划将 Anthropic 的 Claude 模型列入政府工作黑名单，并可能终止价值高达2亿美元的五角大楼合同。\\n链接: https://www.axios.com/2026/02/27/anthropic-pentagon-supply-chain-risk-claude"
+  },
+  {
+    "text": "Anthropic 发布 Claude Opus 4.6 和 Sonnet 4.6\\n摘要: Anthropic 本月发布了两个重要模型更新：Claude Opus 4.6 和 Sonnet 4.6，在计算机使用技能和漏洞发现方面有显著提升。\\n链接: https://its.northeastern.edu/2026/02/26/anthropics-latest-claude-models-are-here-and-theyre-a-big-leap-forward/"
+  },
+  {
+    "text": "Anthropic 推出办公工具 Claude Cowork\\n摘要: Anthropic 的办公提效工具 Claude Cowork 正在进行更广泛的发布，旨在帮助普通办公室职员提升生产力。\\n链接: https://www.cnbc.com/2026/02/24/anthropic-claude-cowork-office-worker.html"
+  },
+  {
+    "text": "MIT 研究发现 AI 模型存在性能偏见\\n摘要: MIT 的研究表明，领先的 AI 模型对于英语水平较低、受教育程度不高和非美国背景的用户表现更差。\\n链接: https://news.mit.edu/topic/artificial-intelligence2"
+  },
+  {
+    "text": "NVIDIA 研究显示生成式 AI 在医疗保健领域带来可观回报\\n摘要: NVIDIA 的研究发现，医疗保健公司正在从生成式 AI 和代理 AI 系统中获得可衡量的回报，这些系统正在改变其日常工作流程。\\n链接: https://aimagazine.com/"
+  },
+  {
+    "text": "阿里巴巴发布通义千问3.0\\n摘要: 近期，阿里巴巴发布了其大模型的最新版本通义千问3.0，引发了新一轮的国产大模型性能评测。\\n链接: https://www.zhihu.com/question/664985399"
+  },
+  {
+    "text": "百度发布文心一言4.0\\n摘要: 百度近期也更新了其旗舰模型，发布了文心一言4.0版本。\\n链接: https://www.zhihu.com/question/664985399"
+  },
+  {
+    "text": "字节跳动更新豆包大模型\\n摘要: 字节跳动在4月份发布了新版的豆包大模型，加入了国产大模型的技术竞赛。\\n链接: https://www.zhihu.com/question/664985399"
   }
 ]
