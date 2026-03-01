@@ -163,5 +163,86 @@
   },
   {
     "text": "字节跳动更新豆包大模型\\n摘要: 字节跳动在4月份发布了新版的豆包大模型，加入了国产大模型的技术竞赛。\\n链接: https://www.zhihu.com/question/664985399"
+  },
+  {
+    "text": "【2026-02-28】OpenAI完成1100亿美元融资，估值达7300亿美元。亚马逊、英伟达、软银领投，目前拥有超9亿周活用户和5000万付费订阅者。来源：https://www.nytimes.com/2026/02/27/business/openai-funding.html"
+  },
+  {
+    "text": "【2026-02-28】GPT-5.3-Codex发布，代号Garlic，是OpenAI最强AI编程模型，专为AI编程Agent设计。来源：https://screenapp.io/blog/chatgpt-pricing"
+  },
+  {
+    "text": "【2026-02-28】ChatGPT Health上线，用户可链接患者门户、Apple Health等健康数据，基于个人健康数据进行问答。来源：https://www.medicaleconomics.com/view/openai-launches-chatgpt-health-directly-linking-patient-portals-to-the-ai-chatbot"
+  },
+  {
+    "text": "【2026-02-28】OpenAI将伦敦设为美国以外最大研究中心，2月26日宣布，看重英国技术生态系统。来源：https://www.reuters.com/technology/openai/"
+  },
+  {
+    "text": "【2026-02-28】ChatGPT免费版开始测试广告，2月9日起在美国测试，Free和Go用户将看到广告。来源：https://winbuzzer.com/2026/02/21/chatgpt-ads-now-appearing-first-prompt-free-users-openai-xcxwbn/"
+  },
+  {
+    "text": "【2026-02-28】英伟达发布Vera Rubin AI系统，性能功耗比前代Grace Blackwell提升10倍，包含130万个组件。来源：https://www.cnbc.com/2026/02/25/first-look-at-nvidias-ai-system-vera-rubin-and-how-it-beats-blackwell.html"
+  },
+  {
+    "text": "【2026-02-28】Google Gemini 3.1 Pro预览版发布，复杂推理基准测试性能提升2.5倍。来源：https://globalcodemaster.com/top-10-ai-breakthroughs-2026-from-physical-ai-and-robotics-to-multimodal-fusion-february-2026-updates"
+  },
+  {
+    "text": "【2026-02-28】Anthropic发布10项企业级AI工具，帮助企业将Claude技术集成到核心业务流程。来源：https://www.reuters.com/business/finance/anthropic-touts-new-ai-tools-weeks-after-legal-plug-in-spurred-market-rout-2026-02-24/"
+  },
+  {
+    "text": "【2026-02-28】科技巨头2026年AI投资将达6500亿美元，Alphabet、亚马逊、Meta、微软集体加码AI基础设施。来源：https://www.reuters.com/business/big-tech-invest-about-650-billion-ai-2026-bridgewater-says-2026-02-23/"
+  },
+  {
+    "text": "【2026-02-28】生成式AI处理医疗数据速度超越人类研究团队，韦恩州立大学研究发现AI可更快处理大规模医疗数据集。来源：https://www.sciencedaily.com/releases/2026/02/260221060942.htm"
+  },
+  {
+    "text": "【2026-02-28】AI突破：发现25种高温磁性材料，或替代电动车稀土磁铁，建立67573种磁性化合物数据库。来源：https://www.sciencedaily.com/releases/2026/02/260218031611.htm"
+  },
+  {
+    "text": "【2026-02-28】NASA毅力号完成火星首次AI规划驾驶，历史性突破，AI自主规划行驶路线。来源：https://www.sciencedaily.com/news/computers_math/artificial_intelligence/"
+  },
+  {
+    "text": "【2026-02-28】字节跳动豆包2.0全系列发布，含Pro/Lite/Mini三款Agent模型及Code版，Pro对标GPT 5.2。Seedance 2.0支持60秒电影级视频。来源：https://m.163.com/dy/article/KMFOHPU30519B04T.html"
+  },
+  {
+    "text": "【2026-02-28】智谱GLM-5技术细节全公开，纯中国本土自研，已适配华为等7大国产芯片，回应套壳质疑，市值突破3200亿港元。来源：https://www.sohu.com/a/989191172_258768"
+  },
+  {
+    "text": "【2026-02-28】阿里千问春节数据：1.3亿人用AI买票购物，AI买电影票订单环比增长372倍，三四线城市增长782倍。来源：https://finance.sina.com.cn/jjxw/2026-02-22/doc-inhnsypy6882523.shtml"
+  },
+  {
+    "text": "【OpenAI】GPT-5正式发布 - 在减少幻觉、提高指令遵循和实际查询方面取得重大进展 | https://openai.com/index/introducing-gpt-5/"
+  },
+  {
+    "text": "【OpenAI】GPT-5.2版本更新 - GPT-5.2 Instant作为gpt-5.2-chat-latest提供 | https://openai.com/index/introducing-gpt-5-2/"
+  },
+  {
+    "text": "【OpenAI】ChatGPT Go全球上线 - 提供GPT-5.2 Instant访问，更高使用限制 | https://openai.com/index/introducing-chatgpt-go/"
+  },
+  {
+    "text": "【OpenAI】o3和o4-mini发布 - o系列思考型模型 | https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+  },
+  {
+    "text": "【Anthropic】Claude登顶App Store免费榜第一 - 用户数增长超60% | https://www.cnbc.com/2026/02/28/anthropics-claude-apple-apps.html"
+  },
+  {
+    "text": "【Anthropic】Claude Cowork扩大发布 - 办公生产力工具 | https://www.cnbc.com/2026/02/24/anthropic-claude-cowork-office-worker.html"
+  },
+  {
+    "text": "【Anthropic】收购Vercept - Claude电脑操作能力大幅提升 | https://www.anthropic.com/news/acquires-vercept"
+  },
+  {
+    "text": "【美国政府】Anthropic被列入黑名单 - 五角大楼终止2亿美元合同 | https://www.axios.com/2026/02/27/anthropic-pentagon-supply-chain-risk-claude"
+  },
+  {
+    "text": "【OpenAI】与国防部达成AI协议 - 为机密系统提供AI技术 | https://www.nytimes.com/2026/02/27/technology/openai-agreement-pentagon-ai.html"
+  },
+  {
+    "text": "【LinkedIn】SEO策略调整 - AI搜索导致B2B流量下降60% | https://www.marketingprofs.com/opinions/2026/54328/ai-update-february-20-2026-ai-news-and-views-from-the-past-week"
+  },
+  {
+    "text": "【医疗AI】康奈尔医学院启动AIM计划 - AI整合到临床护理和生物医学研究 | https://www.crescendo.ai/news/latest-ai-news-and-updates"
+  },
+  {
+    "text": "【国产AI】大模型梯队分析 - Kimi智谱清言第一梯队，文心豆包通义第二梯队 | https://www.zhihu.com/question/664985399/answer/79584178687"
   }
 ]
