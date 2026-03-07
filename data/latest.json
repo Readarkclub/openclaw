@@ -1,5 +1,46 @@
 {
-  "date": "$(date +%Y-%m-%d)",
-  "updated_at": "$(date -u +%Y-%m-%dT%H:%M:%SZ)",
-  "news": []
+  "updated_at": "2026-03-07T11:49:11Z",
+  "count": 5,
+  "news": [
+    {
+      "title": "Netflix收购Ben Affleck的AI电影技术公司",
+      "summary": "Netflix在AI影视制作领域迈出重要一步",
+      "category": "行业动态",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/technology/artificial-intelligence/",
+      "date": "2026-03-07"
+    },
+    {
+      "title": "xAI宣布6.59亿美元扩建孟菲斯超算中心",
+      "summary": "Elon Musk的xAI继续加码AI基础设施投资",
+      "category": "AI基础设施",
+      "source": "OpenTools",
+      "url": "https://opentools.ai/news",
+      "date": "2026-03-07"
+    },
+    {
+      "title": "密歇根大学AI系统秒级解读脑部MRI",
+      "summary": "可准确识别神经疾病并判断紧急程度",
+      "category": "医疗AI",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
+      "date": "2026-03-07"
+    },
+    {
+      "title": "AI Agents成2026企业AI主流方案",
+      "summary": "企业AI代理将主导市场，超越生成式AI和预测分析",
+      "category": "企业AI",
+      "source": "Robotics News",
+      "url": "https://roboticsandautomationnews.com/2026/03/06/what-will-be-the-most-widely-adopted-ai-solution-in-2026/99304/",
+      "date": "2026-03-07"
+    },
+    {
+      "title": "OpenAI推出应用安全AI代理",
+      "summary": "挑战传统安全巨头，深度识别复杂漏洞",
+      "category": "企业应用",
+      "source": "PYMNTS",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-challenges-security-giants-with-new-ai-agent/",
+      "date": "2026-03-07"
+    }
+  ]
 }
