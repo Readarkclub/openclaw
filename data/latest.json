@@ -1,44 +1,5 @@
 {
-  "date": "2026-03-07",
-  "updated_at": "2026-03-07T09:26:00Z",
-  "source": "feishu_bitable",
-  "app_token": "WvjAb22kHa5SetsjnSwcfp5Dnef",
-  "table_id": "tbliLMhlzAkM2Uff",
-  "news": [
-    {
-      "title": "密歇根大学AI秒级解读脑部MRI",
-      "summary": "研究人员创建AI系统，几秒内准确识别神经系统疾病",
-      "category": "行业趋势",
-      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
-      "date": "2026-03-07"
-    },
-    {
-      "title": "三星AI智能眼镜2026年发布",
-      "summary": "三星首次进入AI智能眼镜产品类别",
-      "category": "行业趋势",
-      "url": "https://www.cnbc.com/2026/03/06/samsung-ai-smart-glasses-first-details-specs-release-date.html",
-      "date": "2026-03-07"
-    },
-    {
-      "title": "xAI宣布6.59亿美元扩建超算中心",
-      "summary": "马斯克的xAI在孟菲斯扩建超级计算机",
-      "category": "行业趋势",
-      "url": "https://opentools.ai/news",
-      "date": "2026-03-07"
-    },
-    {
-      "title": "Gemini 3.1 Pro登顶基准测试",
-      "summary": "Google重回榜首，Claude Sonnet 4.6性价比突出",
-      "category": "行业趋势",
-      "url": "https://designforonline.com/the-best-ai-models-so-far-in-2026/",
-      "date": "2026-03-07"
-    },
-    {
-      "title": "美国起草AI芯片全球出口管制",
-      "summary": "限制Nvidia和AMD芯片出货需美国批准",
-      "category": "行业趋势",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-05/us-drafts-rules-for-sweeping-power-over-nvidia-s-global-sales",
-      "date": "2026-03-05"
-    }
-  ]
+  "date": "$(date +%Y-%m-%d)",
+  "updated_at": "$(date -u +%Y-%m-%dT%H:%M:%SZ)",
+  "news": []
 }
