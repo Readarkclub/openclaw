@@ -13,7 +13,7 @@ https://openclaw.vercel.app (部署中)
 ## 🔄 更新机制
 
 - 每日定时任务自动更新
-- 数据同步到 `data.json`
+- 数据同步到 `data/latest.json`
 - 网站自动刷新显示最新内容
 
 ## 🛠️ 技术栈

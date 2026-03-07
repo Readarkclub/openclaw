@@ -259,17 +259,10 @@
                     renderStructured(data);
                     return;
                 }
-                return fetch('data.json')
-                    .then(response => response.json())
-                    .then(renderLegacy);
+                throw new Error('latest.json unavailable');
             })
             .catch(error => {
-                fetch('data.json')
-                    .then(response => response.json())
-                    .then(renderLegacy)
-                    .catch(() => {
-                        document.getElementById('news-container').innerHTML = '<p style="padding: 40px; color: var(--magenta);">STREAM ERROR: DATA_NOT_FOUND</p>';
-                    });
+                document.getElementById('news-container').innerHTML = '<p style="padding: 40px; color: var(--magenta);">STREAM ERROR: LATEST_FEED_NOT_FOUND</p>';
             });
     </script>
 </body>
