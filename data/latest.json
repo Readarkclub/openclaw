@@ -1,62 +1,97 @@
 {
-  "updated_at": "2026-03-07T12:05:58Z",
+  "schema_version": 2,
+  "updated_at": "2026-03-07T12:15:04Z",
+  "source": {
+    "type": "feishu_bitable",
+    "app_token": "WvjAb22kHa5SetsjnSwcfp5Dnef",
+    "table_id": "tbliLMhlzAkM2Uff"
+  },
   "count": 7,
+  "categories": [
+    "AI基础设施",
+    "企业AI",
+    "企业应用",
+    "医疗AI",
+    "行业动态",
+    "行业趋势"
+  ],
   "news": [
     {
+      "id": "recvdbnnGrzbVP",
       "title": "OpenAI推出应用安全AI代理挑战安全巨头",
       "summary": "OpenAI推出应用安全代理，能够深度理解用户项目上下文以识别复杂漏洞，向传统安全厂商发起挑战",
       "category": "企业AI",
-      "source": "查看详情",
+      "source": "pymnts.com",
+      "source_host": "pymnts.com",
       "url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-challenges-security-giants-with-new-ai-agent/",
-      "date": "2024-03-07"
+      "date": "2024-03-07",
+      "published_at": "2024-03-07T06:14:53Z"
     },
     {
+      "id": "recvdbno8ki0cM",
       "title": "2026年MWC大会闭幕：AI重塑电信行业",
       "summary": "2026年世界移动通信大会在巴塞罗那闭幕，重点展示AI如何推动移动通信超越基础连接，向整合云计算、数据平台和行业应用的更广泛数字生态系统发展",
       "category": "行业动态",
-      "source": "查看详情",
+      "source": "macaubusiness.com",
+      "source_host": "macaubusiness.com",
       "url": "https://macaubusiness.com/mwc-2026-concludes-in-spain-highlighting-how-ai-reshaping-telecom-industry/",
-      "date": "2024-03-06"
+      "date": "2024-03-06",
+      "published_at": "2024-03-06T11:08:13Z"
     },
     {
+      "id": "recvdbnougaMWR",
       "title": "Netflix收购Ben Affleck的AI电影技术公司",
       "summary": "Netflix收购了Ben Affleck的AI电影技术公司，标志着流媒体巨头在AI内容制作领域的重大布局",
       "category": "企业应用",
-      "source": "查看详情",
+      "source": "reuters.com",
+      "source_host": "reuters.com",
       "url": "https://www.reuters.com/technology/artificial-intelligence/",
-      "date": "2024-03-07"
+      "date": "2024-03-07",
+      "published_at": "2024-03-07T11:04:53Z"
     },
     {
+      "id": "recvdbnoQr1j44",
       "title": "美国拟对全球AI芯片销售实施许可制度",
       "summary": "美国商务部起草新规，要求Nvidia、AMD等公司向全球任何地区销售AI芯片都需获得美国批准，华盛顿将对其他国家建设AI训练设施拥有广泛控制权",
       "category": "AI基础设施",
-      "source": "查看详情",
+      "source": "bloomberg.com",
+      "source_host": "bloomberg.com",
       "url": "https://www.bloomberg.com/news/articles/2026-03-05/us-drafts-rules-for-sweeping-power-over-nvidia-s-global-sales",
-      "date": "2024-03-06"
+      "date": "2024-03-06",
+      "published_at": "2024-03-06T11:08:13Z"
     },
     {
+      "id": "recvdbnpc1uOoj",
       "title": "AI代理将成为2026年企业AI最广泛采用的解决方案",
       "summary": "企业AI代理被预测将在2026年主导市场，超越生成式模型、预测分析、计算机视觉和智能自动化等其他AI工具",
       "category": "行业趋势",
-      "source": "查看详情",
+      "source": "roboticsandautomationnews.com",
+      "source_host": "roboticsandautomationnews.com",
       "url": "https://roboticsandautomationnews.com/2026/03/06/what-will-be-the-most-widely-adopted-ai-solution-in-2026/99304/",
-      "date": "2024-03-07"
+      "date": "2024-03-07",
+      "published_at": "2024-03-07T02:54:53Z"
     },
     {
+      "id": "recvdbnpytYgbQ",
       "title": "xAI宣布6.59亿美元扩建孟菲斯超算中心",
       "summary": "Elon Musk的xAI公司宣布投资6.59亿美元扩建其位于孟菲斯的超级计算中心，进一步加强AI算力基础设施",
       "category": "AI基础设施",
-      "source": "查看详情",
+      "source": "opentools.ai",
+      "source_host": "opentools.ai",
       "url": "https://opentools.ai/news",
-      "date": "2024-03-07"
+      "date": "2024-03-07",
+      "published_at": "2024-03-07T02:01:33Z"
     },
     {
+      "id": "recvdbnpTXelwe",
       "title": "AI系统可在数秒内解读脑部MRI扫描",
       "summary": "密歇根大学研究人员开发的AI系统能在几秒钟内准确解读脑部MRI扫描，识别多种神经系统疾病并判断哪些病例需要紧急护理",
       "category": "医疗AI",
-      "source": "查看详情",
+      "source": "sciencedaily.com",
+      "source_host": "sciencedaily.com",
       "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
-      "date": "2024-03-06"
+      "date": "2024-03-06",
+      "published_at": "2024-03-06T11:08:13Z"
     }
   ]
 }
