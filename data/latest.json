@@ -1,17 +1,20 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-03-07T12:31:22Z",
+  "updated_at": "2026-03-07T13:13:58Z",
   "source": {
     "type": "feishu_bitable",
     "app_token": "WvjAb22kHa5SetsjnSwcfp5Dnef",
     "table_id": "tbliLMhlzAkM2Uff"
   },
-  "count": 7,
+  "count": 13,
   "categories": [
     "AI基础设施",
+    "产业动态",
     "企业AI",
     "企业应用",
     "医疗AI",
+    "医疗健康",
+    "政策法规",
     "行业动态",
     "行业趋势"
   ],
@@ -106,6 +109,84 @@
       "display_date": "2026-03-06",
       "published_at": "2026-03-06T11:08:13Z",
       "sort_ts": 1772795293000
+    },
+    {
+      "id": "recvdbEvds2Klq",
+      "title": "xAI宣布6.59亿美元扩建孟菲斯超算中心",
+      "summary": "Elon Musk旗下的xAI公司宣布投资6.59亿美元扩建其位于孟菲斯的超级计算设施，这是AI基础设施建设的重大举措。",
+      "category": "产业动态",
+      "source": "opentools.ai",
+      "source_host": "opentools.ai",
+      "url": "https://opentools.ai/news",
+      "date": "2026-03-07",
+      "display_date": "2026-03-07",
+      "published_at": "2026-03-07T00:00:00Z",
+      "sort_ts": 1772841600000
+    },
+    {
+      "id": "recvdbEvFwXww3",
+      "title": "AI系统可在数秒内解读脑部MRI扫描",
+      "summary": "密歇根大学研究人员开发的AI系统能够在几秒钟内准确解读脑部MRI扫描，识别多种神经系统疾病并判断哪些病例需要紧急护理。",
+      "category": "医疗健康",
+      "source": "sciencedaily.com",
+      "source_host": "sciencedaily.com",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
+      "date": "2026-03-07",
+      "display_date": "2026-03-07",
+      "published_at": "2026-03-07T00:00:00Z",
+      "sort_ts": 1772841600000
+    },
+    {
+      "id": "recvdbEw9hx9Cm",
+      "title": "Netflix收购Ben Affleck的AI电影技术公司",
+      "summary": "Netflix宣布收购由Ben Affleck创立的AI电影技术公司，进一步加强其在AI驱动内容制作领域的布局。",
+      "category": "产业动态",
+      "source": "reuters.com",
+      "source_host": "reuters.com",
+      "url": "https://www.reuters.com/technology/artificial-intelligence/",
+      "date": "2026-03-07",
+      "display_date": "2026-03-07",
+      "published_at": "2026-03-07T00:00:00Z",
+      "sort_ts": 1772841600000
+    },
+    {
+      "id": "recvdbEwuRwhNP",
+      "title": "AI代理将成为2026年企业AI最广泛采用的解决方案",
+      "summary": "分析指出，企业AI代理将在2026年主导市场，超越生成式模型、预测分析、计算机视觉等其他AI工具，成为最广泛采用的企业AI解决方案。",
+      "category": "行业趋势",
+      "source": "roboticsandautomationnews.com",
+      "source_host": "roboticsandautomationnews.com",
+      "url": "https://roboticsandautomationnews.com/2026/03/06/what-will-be-the-most-widely-adopted-ai-solution-in-2026/99304/",
+      "date": "2026-03-07",
+      "display_date": "2026-03-07",
+      "published_at": "2026-03-07T00:00:00Z",
+      "sort_ts": 1772841600000
+    },
+    {
+      "id": "recvdbEwWRYyIG",
+      "title": "美国制定严格AI指南，与Anthropic发生冲突",
+      "summary": "据英国《金融时报》报道，美国正在制定严格的AI监管指南，此举与AI公司Anthropic产生了冲突，凸显了AI监管的复杂性。",
+      "category": "政策法规",
+      "source": "reuters.com",
+      "source_host": "reuters.com",
+      "url": "https://www.reuters.com/technology/",
+      "date": "2026-03-07",
+      "display_date": "2026-03-07",
+      "published_at": "2026-03-07T00:00:00Z",
+      "sort_ts": 1772841600000
+    },
+    {
+      "id": "recvdbExjAegid",
+      "title": "2026年MWC大会聚焦AI重塑电信行业",
+      "summary": "2026年世界移动通信大会在西班牙巴塞罗那闭幕，重点展示了AI如何推动移动通信超越基础连接，向整合云计算、数据平台和行业应用的更广泛数字生态系统发展。",
+      "category": "行业趋势",
+      "source": "macaubusiness.com",
+      "source_host": "macaubusiness.com",
+      "url": "https://macaubusiness.com/mwc-2026-concludes-in-spain-highlighting-how-ai-reshaping-telecom-industry/",
+      "date": "2026-03-07",
+      "display_date": "2026-03-07",
+      "published_at": "2026-03-07T00:00:00Z",
+      "sort_ts": 1772841600000
     }
   ]
 }
