@@ -148,6 +148,22 @@
             word-break: break-word;
         }
 
+        .news-title {
+            font-family: 'Inter', sans-serif;
+            font-size: 1.4rem;
+            line-height: 1.1;
+            margin-bottom: 14px;
+            color: #fff;
+        }
+
+        .news-meta {
+            font-size: 0.75rem;
+            color: var(--accent);
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            margin-bottom: 16px;
+        }
+
         .news-content a {
             color: var(--accent);
             text-decoration: none;
@@ -199,29 +215,61 @@
     </div>
 
     <script>
-        function linkify(text) {
-            const urlRegex = /(https?:\/\/[^\s]+)/g;
-            return text.replace(urlRegex, function(url) {
-                return '<br><a href="' + url + '" target="_blank">GO TO SOURCE _</a>';
+        function escapeHtml(text) {
+            return String(text || '')
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;')
+                .replace(/'/g, '&#39;');
+        }
+
+        function renderStructured(data) {
+            const container = document.getElementById('news-container');
+            container.innerHTML = '';
+            data.news.forEach(item => {
+                const card = document.createElement('div');
+                card.className = 'news-card';
+                card.innerHTML = `
+                    <div class="news-title">${escapeHtml(item.title)}</div>
+                    <div class="news-meta">${escapeHtml(item.category)} // ${escapeHtml(item.source)} // ${escapeHtml(item.display_date || item.date)}</div>
+                    <div class="news-content">${escapeHtml(item.summary || '')}</div>
+                    <div class="news-content"><a href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">GO TO SOURCE _</a></div>
+                `;
+                container.appendChild(card);
             });
         }
 
-        fetch('data.json')
+        function renderLegacy(data) {
+            const container = document.getElementById('news-container');
+            container.innerHTML = '';
+            const reversedData = data.slice().reverse();
+            reversedData.forEach(item => {
+                const card = document.createElement('div');
+                card.className = 'news-card';
+                card.innerHTML = `<div class="news-content">${escapeHtml(item.text).replace(/\n/g, '<br>')}</div>`;
+                container.appendChild(card);
+            });
+        }
+
+        fetch('data/latest.json')
             .then(response => response.json())
             .then(data => {
-                const container = document.getElementById('news-container');
-                container.innerHTML = '';
-                const reversedData = data.slice().reverse();
-                reversedData.forEach(item => {
-                    const card = document.createElement('div');
-                    card.className = 'news-card';
-                    const linkedText = linkify(item.text);
-                    card.innerHTML = `<div class="news-content">${linkedText}</div>`;
-                    container.appendChild(card);
-                });
+                if (data && Array.isArray(data.news)) {
+                    renderStructured(data);
+                    return;
+                }
+                return fetch('data.json')
+                    .then(response => response.json())
+                    .then(renderLegacy);
             })
             .catch(error => {
-                document.getElementById('news-container').innerHTML = '<p style="padding: 40px; color: var(--magenta);">STREAM ERROR: DATA_NOT_FOUND</p>';
+                fetch('data.json')
+                    .then(response => response.json())
+                    .then(renderLegacy)
+                    .catch(() => {
+                        document.getElementById('news-container').innerHTML = '<p style="padding: 40px; color: var(--magenta);">STREAM ERROR: DATA_NOT_FOUND</p>';
+                    });
             });
     </script>
 </body>
