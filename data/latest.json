@@ -1,83 +1,19 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-03-08T09:36:29Z",
+  "updated_at": "2026-03-08T09:38:51Z",
   "source": {
     "type": "feishu_bitable",
     "app_token": "WvjAb22kHa5SetsjnSwcfp5Dnef",
     "table_id": "tbliLMhlzAkM2Uff"
   },
-  "count": 8,
+  "count": 6,
   "categories": [
     "开源项目",
     "教程",
-    "行业分析"
+    "行业分析",
+    "行业动态"
   ],
   "news": [
-    {
-      "id": "recvdgBusiq3AB",
-      "title": "AI Agent教程：从零打造智能体",
-      "summary": "B站最全AI Agent教程，手把手教你从零开始打造AI智能体，零基础小白适用",
-      "category": "教程",
-      "source": "bilibili.com",
-      "source_host": "bilibili.com",
-      "url": "https://www.bilibili.com/video/BV1skPLzyE8q/",
-      "date": "2025-03-11",
-      "display_date": "2025-03-11",
-      "published_at": "2025-03-11T00:00:00Z",
-      "sort_ts": 1741651200000
-    },
-    {
-      "id": "recvdgBusiJb3r",
-      "title": "Vercel开源Agent Browser浏览器自动化工具",
-      "summary": "比Playwright更省token，使用辅助功能树(Accessibility Tree)，大大节约调用浏览器的成本",
-      "category": "开源项目",
-      "source": "bilibili.com",
-      "source_host": "bilibili.com",
-      "url": "https://www.bilibili.com/video/BV1qW65BeEFQ/",
-      "date": "2025-03-11",
-      "display_date": "2025-03-11",
-      "published_at": "2025-03-11T00:00:00Z",
-      "sort_ts": 1741651200000
-    },
-    {
-      "id": "recvdgBusibUxx",
-      "title": "OpenClaw原理精讲与从零手搓",
-      "summary": "详解Agent Skill、无限上下文记忆、自主迭代功能设计思路与从零开发实战",
-      "category": "教程",
-      "source": "bilibili.com",
-      "source_host": "bilibili.com",
-      "url": "https://www.bilibili.com/video/BV1mScqzqEDN/",
-      "date": "2025-03-11",
-      "display_date": "2025-03-11",
-      "published_at": "2025-03-11T00:00:00Z",
-      "sort_ts": 1741651200000
-    },
-    {
-      "id": "recvdgBusi4bQE",
-      "title": "吴恩达2026 Agent智能体教程",
-      "summary": "大模型入门到进阶，一套全解决！Agentic AI完整课程，附带课件代码",
-      "category": "教程",
-      "source": "bilibili.com",
-      "source_host": "bilibili.com",
-      "url": "https://www.bilibili.com/video/BV1DfrdByE2H/",
-      "date": "2025-03-11",
-      "display_date": "2025-03-11",
-      "published_at": "2025-03-11T00:00:00Z",
-      "sort_ts": 1741651200000
-    },
-    {
-      "id": "recvdgBusiTrik",
-      "title": "世界模型全面解析：定义、路线、实践与AGI",
-      "summary": "全面解析世界模型的定义、技术路线、实践应用，探讨AGI的更近一步",
-      "category": "行业分析",
-      "source": "bilibili.com",
-      "source_host": "bilibili.com",
-      "url": "https://www.bilibili.com/video/BV11LPWzNEkm/",
-      "date": "2025-03-11",
-      "display_date": "2025-03-11",
-      "published_at": "2025-03-11T00:00:00Z",
-      "sort_ts": 1741651200000
-    },
     {
       "id": "recvdgChYSzC0p",
       "title": "AI Agent教程：从零打造智能体",
@@ -112,6 +48,45 @@
       "source": "bilibili.com",
       "source_host": "bilibili.com",
       "url": "https://www.bilibili.com/video/BV1mScqzqEDN/",
+      "date": "2026-03-08",
+      "display_date": "2026-03-08",
+      "published_at": "2026-03-08T00:00:00Z",
+      "sort_ts": 1772928000000
+    },
+    {
+      "id": "recvdgCQyn9NOr",
+      "title": "中国AI Token调用量首超美国",
+      "summary": "2026年2月中国 AI Token 周调用量历史性首次超越美国，映射底层算力、Agent应用生态系统性重构",
+      "category": "行业动态",
+      "source": "openaxo.com",
+      "source_host": "openaxo.com",
+      "url": "https://openaxo.com/innovation/china-ai-token-surpasses-us-2026",
+      "date": "2026-03-08",
+      "display_date": "2026-03-08",
+      "published_at": "2026-03-08T00:00:00Z",
+      "sort_ts": 1772928000000
+    },
+    {
+      "id": "recvdgCQyn6uUm",
+      "title": "任泽平2026十大趋势：AI改变世界",
+      "summary": "2026年度预测：AI超级应用爆发，AI中国力量崛起，AI不是风口是海啸",
+      "category": "行业分析",
+      "source": "finance.sina.com.cn",
+      "source_host": "finance.sina.com.cn",
+      "url": "https://finance.sina.com.cn/wm/2026-03-08/doc-inhqevqz8160191.shtml",
+      "date": "2026-03-08",
+      "display_date": "2026-03-08",
+      "published_at": "2026-03-08T00:00:00Z",
+      "sort_ts": 1772928000000
+    },
+    {
+      "id": "recvdgCQynQTWo",
+      "title": "2026 AI最佳场景渗透案例征集",
+      "summary": "36氪发起2026年度AI最佳场景渗透案例评选，挖掘真正解决行业痛点、产生商业价值的AI应用标杆",
+      "category": "行业动态",
+      "source": "36kr.com",
+      "source_host": "36kr.com",
+      "url": "https://www.36kr.com/p/3711294378930306",
       "date": "2026-03-08",
       "display_date": "2026-03-08",
       "published_at": "2026-03-08T00:00:00Z",
