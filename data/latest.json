@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-03-08T09:33:25Z",
+  "updated_at": "2026-03-08T09:36:29Z",
   "source": {
     "type": "feishu_bitable",
     "app_token": "WvjAb22kHa5SetsjnSwcfp5Dnef",
     "table_id": "tbliLMhlzAkM2Uff"
   },
-  "count": 5,
+  "count": 8,
   "categories": [
     "开源项目",
     "教程",
@@ -77,6 +77,45 @@
       "display_date": "2025-03-11",
       "published_at": "2025-03-11T00:00:00Z",
       "sort_ts": 1741651200000
+    },
+    {
+      "id": "recvdgChYSzC0p",
+      "title": "AI Agent教程：从零打造智能体",
+      "summary": "B站最全AI Agent教程，手把手教你从零开始打造AI智能体",
+      "category": "教程",
+      "source": "bilibili.com",
+      "source_host": "bilibili.com",
+      "url": "https://www.bilibili.com/video/BV1skPLzyE8q/",
+      "date": "2026-03-08",
+      "display_date": "2026-03-08",
+      "published_at": "2026-03-08T00:00:00Z",
+      "sort_ts": 1772928000000
+    },
+    {
+      "id": "recvdgChYSgzWV",
+      "title": "Vercel开源Agent Browser工具",
+      "summary": "比Playwright更省token，使用辅助功能树，大大节约成本",
+      "category": "开源项目",
+      "source": "bilibili.com",
+      "source_host": "bilibili.com",
+      "url": "https://www.bilibili.com/video/BV1qW65BeEFQ/",
+      "date": "2026-03-08",
+      "display_date": "2026-03-08",
+      "published_at": "2026-03-08T00:00:00Z",
+      "sort_ts": 1772928000000
+    },
+    {
+      "id": "recvdgChYSpaMn",
+      "title": "OpenClaw原理精讲与从零手搓",
+      "summary": "详解Agent Skill、无限上下文记忆、自主迭代功能",
+      "category": "教程",
+      "source": "bilibili.com",
+      "source_host": "bilibili.com",
+      "url": "https://www.bilibili.com/video/BV1mScqzqEDN/",
+      "date": "2026-03-08",
+      "display_date": "2026-03-08",
+      "published_at": "2026-03-08T00:00:00Z",
+      "sort_ts": 1772928000000
     }
   ]
 }
