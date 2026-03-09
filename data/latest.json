@@ -1,15 +1,19 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-03-08T18:03:15Z",
+  "updated_at": "2026-03-09T02:01:36Z",
   "source": {
     "type": "feishu_bitable",
     "app_token": "WvjAb22kHa5SetsjnSwcfp5Dnef",
     "table_id": "tbliLMhlzAkM2Uff"
   },
-  "count": 6,
+  "count": 16,
   "categories": [
+    "Agent",
+    "多模态",
+    "大模型",
     "开源项目",
     "教程",
+    "行业",
     "行业分析",
     "行业动态"
   ],
@@ -91,6 +95,136 @@
       "display_date": "2026-03-08",
       "published_at": "2026-03-08T00:00:00Z",
       "sort_ts": 1772928000000
+    },
+    {
+      "id": "recvdkC7kksYCr",
+      "title": "可灵视频3.0发布：专业视频生成能力升级",
+      "summary": "2026年2月发布的视频生成大模型，升级自可灵视频2.6，相对于同时发布的3.0 Omni，可灵视频3.0更侧重于专业视频生成。",
+      "category": "多模态",
+      "source": "zhuanlan.zhihu.com",
+      "source_host": "zhuanlan.zhihu.com",
+      "url": "https://zhuanlan.zhihu.com/p/670574382",
+      "date": "2026-03-08",
+      "display_date": "2026-03-08",
+      "published_at": "2026-03-08T00:00:00Z",
+      "sort_ts": 1772928000000
+    },
+    {
+      "id": "recvdkC7kkyd1m",
+      "title": "清华发布2026年中国AI发展趋势前瞻",
+      "summary": "清华大学发布2026年AI发展趋势报告，预测AI竞争将从Chat范式转向Agent时代，大模型将聚焦物理认知深化、推理效能提升等关键维度。",
+      "category": "行业",
+      "source": "tsinghua.edu.cn",
+      "source_host": "tsinghua.edu.cn",
+      "url": "https://www.tsinghua.edu.cn/info/1182/124190.htm",
+      "date": "2026-03-08",
+      "display_date": "2026-03-08",
+      "published_at": "2026-03-08T00:00:00Z",
+      "sort_ts": 1772928000000
+    },
+    {
+      "id": "recvdkC7kkzB42",
+      "title": "智能体开启AI进化新格局：从技术突破到价值落地",
+      "summary": "AGI-Next峰会指出，基础模型数量持续收敛，模型在真实场景的应用效果将成为核心评价标准，AI竞争从Chat转向Agent时代。",
+      "category": "Agent",
+      "source": "szzg.gov.cn",
+      "source_host": "szzg.gov.cn",
+      "url": "https://www.szzg.gov.cn/2025/xwzx/qwfb/202601/t20260129_5278492.htm",
+      "date": "2025-01-29",
+      "display_date": "2025-01-29",
+      "published_at": "2025-01-29T00:00:00Z",
+      "sort_ts": 1738108800000
+    },
+    {
+      "id": "recvdkC7kktFuM",
+      "title": "中国大模型一年狂飙421%，全球AI格局变天",
+      "summary": "2025年中国大模型市场爆发式增长，Google和Anthropic市场份额下降至33%，头部企业控制力几乎减半，全球AI格局重塑。",
+      "category": "大模型",
+      "source": "finance.sina.com.cn",
+      "source_host": "finance.sina.com.cn",
+      "url": "https://finance.sina.com.cn/stock/t/2026-03-02/doc-inhpqvaq5350351.shtml",
+      "date": "2026-03-02",
+      "display_date": "2026-03-02",
+      "published_at": "2026-03-02T00:00:00Z",
+      "sort_ts": 1772409600000
+    },
+    {
+      "id": "recvdkC7kkrt1A",
+      "title": "ChatGPT 5.3发布：深度推理能力进一步优化",
+      "summary": "OpenAI在2025年底推出GPT-5 Omni后，2026年初发布5.3版本，进一步优化深度推理能力，在复杂逻辑推导方面保持领先。",
+      "category": "大模型",
+      "source": "hankmo.com",
+      "source_host": "hankmo.com",
+      "url": "https://hankmo.com/posts/ai/llm-2026-guide/",
+      "date": "2026-02-11",
+      "display_date": "2026-02-11",
+      "published_at": "2026-02-11T16:00:00Z",
+      "sort_ts": 1770825600000
+    },
+    {
+      "id": "recvdkCfWg1SEi",
+      "title": "Qwen2-VL：增强任意分辨率下的视觉语言理解",
+      "summary": "Qwen研究团队发布Qwen2-VL多模态大语言模型，在任意分辨率下增强视觉-语言模型对世界的感知能力。",
+      "category": "多模态",
+      "source": "cnblogs.com",
+      "source_host": "cnblogs.com",
+      "url": "https://www.cnblogs.com/jellyai/p/18596815",
+      "date": "2026-10-04",
+      "display_date": "2026-10-04",
+      "published_at": "2026-10-04T00:00:00Z",
+      "sort_ts": 1791072000000
+    },
+    {
+      "id": "recvdkCfWgKUs5",
+      "title": "Llama 3 Vision：开源多模态模型新突破",
+      "summary": "Meta推出Llama 3 Vision，整合强大的视觉编码器和Llama 3语言模型，能够进行复杂的视觉推理和理解细微的视觉细节。",
+      "category": "多模态",
+      "source": "51cto.com",
+      "source_host": "51cto.com",
+      "url": "https://www.51cto.com/aigc/6361.html",
+      "date": "2026-03-08",
+      "display_date": "2026-03-08",
+      "published_at": "2026-03-08T00:00:00Z",
+      "sort_ts": 1772928000000
+    },
+    {
+      "id": "recvdkCfWgMRJS",
+      "title": "2026年AI行业：应用爆发、架构突破、物理AI",
+      "summary": "2026年AI应用爆发，企业端对AI的投资认知普遍提高，目标从提升效率转向创造可衡量的商业价值，推动AI从示范项目走向规模化落地。",
+      "category": "行业",
+      "source": "m.ofweek.com",
+      "source_host": "m.ofweek.com",
+      "url": "https://m.ofweek.com/ai/2026-01/ART-201700-8500-30678890.html",
+      "date": "2025-01-29",
+      "display_date": "2025-01-29",
+      "published_at": "2025-01-29T00:00:00Z",
+      "sort_ts": 1738108800000
+    },
+    {
+      "id": "recvdkCfWgIc1g",
+      "title": "AI大规模落地制造业：汽车、机器人领跑",
+      "summary": "中国信通院报告显示，AI在电子信息、消费品、汽车等装备制造行业应用占重要份额，2026年AI将大规模落地制造业。",
+      "category": "行业",
+      "source": "m.12371.gov.cn",
+      "source_host": "m.12371.gov.cn",
+      "url": "https://m.12371.gov.cn/content/2026-01/28/content_506130.html",
+      "date": "2025-01-29",
+      "display_date": "2025-01-29",
+      "published_at": "2025-01-29T00:00:00Z",
+      "sort_ts": 1738108800000
+    },
+    {
+      "id": "recvdkCfWgAM0p",
+      "title": "2026年AI最新进展：工程化的胜利",
+      "summary": "2026年AI的主线被称为“工程化的胜利”，能力提升很重要，但决定能否落地的往往是工程系统如何承接它。",
+      "category": "行业",
+      "source": "rowkey.cn",
+      "source_host": "rowkey.cn",
+      "url": "https://www.rowkey.cn/blog/2026/02/26/ai-progress-2026/",
+      "date": "2026-02-26",
+      "display_date": "2026-02-26",
+      "published_at": "2026-02-26T00:00:00Z",
+      "sort_ts": 1772064000000
     }
   ]
 }
