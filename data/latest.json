@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-03-11T02:03:28Z",
+  "updated_at": "2026-03-12T02:03:01Z",
   "source": {
     "type": "feishu_bitable",
     "app_token": "WvjAb22kHa5SetsjnSwcfp5Dnef",
     "table_id": "tbliLMhlzAkM2Uff"
   },
-  "count": 18,
+  "count": 20,
   "categories": [
     "Agent",
     "多模态",
@@ -106,10 +106,10 @@
       "source": "releasebot.io",
       "source_host": "releasebot.io",
       "url": "https://releasebot.io/updates/openai",
-      "date": "2025-03-11",
-      "display_date": "2025-03-11",
-      "published_at": "2025-03-11T00:00:00Z",
-      "sort_ts": 1741651200000
+      "date": "2026-03-08",
+      "display_date": "2026-03-08",
+      "published_at": "2026-03-08T00:00:00Z",
+      "sort_ts": 1772928000000
     },
     {
       "id": "recvdwjGJE3us6",
@@ -119,10 +119,10 @@
       "source": "evermx.com",
       "source_host": "evermx.com",
       "url": "https://evermx.com/case/deepseek-v4-multimodal-march-2026-launch",
-      "date": "2025-03-11",
-      "display_date": "2025-03-11",
-      "published_at": "2025-03-11T00:00:00Z",
-      "sort_ts": 1741651200000
+      "date": "2026-03-08",
+      "display_date": "2026-03-08",
+      "published_at": "2026-03-08T00:00:00Z",
+      "sort_ts": 1772928000000
     },
     {
       "id": "recvdwjHfefXlx",
@@ -132,10 +132,10 @@
       "source": "bilibili.com",
       "source_host": "bilibili.com",
       "url": "https://www.bilibili.com/video/BV1WDAozxEEB/",
-      "date": "2025-03-11",
-      "display_date": "2025-03-11",
-      "published_at": "2025-03-11T00:00:00Z",
-      "sort_ts": 1741651200000
+      "date": "2026-03-08",
+      "display_date": "2026-03-08",
+      "published_at": "2026-03-08T00:00:00Z",
+      "sort_ts": 1772928000000
     },
     {
       "id": "recvdwjHLN5Hus",
@@ -145,10 +145,10 @@
       "source": "promptnest.info",
       "source_host": "promptnest.info",
       "url": "https://www.promptnest.info/blog/current-claude-ai-model-versions-2026",
-      "date": "2025-03-11",
-      "display_date": "2025-03-11",
-      "published_at": "2025-03-11T00:00:00Z",
-      "sort_ts": 1741651200000
+      "date": "2026-03-08",
+      "display_date": "2026-03-08",
+      "published_at": "2026-03-08T00:00:00Z",
+      "sort_ts": 1772928000000
     },
     {
       "id": "recvdwjIoM007d",
@@ -158,10 +158,10 @@
       "source": "markaicode.com",
       "source_host": "markaicode.com",
       "url": "https://markaicode.com/gpt6-claude5-predictions-2026/",
-      "date": "2025-03-11",
-      "display_date": "2025-03-11",
-      "published_at": "2025-03-11T00:00:00Z",
-      "sort_ts": 1741651200000
+      "date": "2026-03-08",
+      "display_date": "2026-03-08",
+      "published_at": "2026-03-08T00:00:00Z",
+      "sort_ts": 1772928000000
     },
     {
       "id": "recvdwjIUp2Izd",
@@ -171,10 +171,10 @@
       "source": "guruhitech.com",
       "source_host": "guruhitech.com",
       "url": "https://guruhitech.com/how-seedance-2-0-reframed-the-2026-video-race/",
-      "date": "2025-03-11",
-      "display_date": "2025-03-11",
-      "published_at": "2025-03-11T00:00:00Z",
-      "sort_ts": 1741651200000
+      "date": "2026-03-08",
+      "display_date": "2026-03-08",
+      "published_at": "2026-03-08T00:00:00Z",
+      "sort_ts": 1772928000000
     },
     {
       "id": "recvdwjJntZGQW",
@@ -184,10 +184,10 @@
       "source": "en.wikipedia.org",
       "source_host": "en.wikipedia.org",
       "url": "https://en.wikipedia.org/wiki/Gemini_(language_model)",
-      "date": "2025-03-11",
-      "display_date": "2025-03-11",
-      "published_at": "2025-03-11T00:00:00Z",
-      "sort_ts": 1741651200000
+      "date": "2026-03-08",
+      "display_date": "2026-03-08",
+      "published_at": "2026-03-08T00:00:00Z",
+      "sort_ts": 1772928000000
     },
     {
       "id": "recvdwjJSdZlxa",
@@ -197,10 +197,10 @@
       "source": "en.wikipedia.org",
       "source_host": "en.wikipedia.org",
       "url": "https://en.wikipedia.org/wiki/Anthropic",
-      "date": "2025-03-11",
-      "display_date": "2025-03-11",
-      "published_at": "2025-03-11T00:00:00Z",
-      "sort_ts": 1741651200000
+      "date": "2026-03-08",
+      "display_date": "2026-03-08",
+      "published_at": "2026-03-08T00:00:00Z",
+      "sort_ts": 1772928000000
     },
     {
       "id": "recvdwjKnux63p",
@@ -210,10 +210,10 @@
       "source": "indianexpress.com",
       "source_host": "indianexpress.com",
       "url": "https://indianexpress.com/article/technology/artificial-intelligence/sarvam-releases-open-weight-models-ai-summit-deepseek-gemini-10571340/",
-      "date": "2025-03-11",
-      "display_date": "2025-03-11",
-      "published_at": "2025-03-11T00:00:00Z",
-      "sort_ts": 1741651200000
+      "date": "2026-03-08",
+      "display_date": "2026-03-08",
+      "published_at": "2026-03-08T00:00:00Z",
+      "sort_ts": 1772928000000
     },
     {
       "id": "recvdwjL9TQvg2",
@@ -223,10 +223,10 @@
       "source": "firstpagesage.com",
       "source_host": "firstpagesage.com",
       "url": "https://firstpagesage.com/reports/top-generative-ai-chatbots/",
-      "date": "2025-03-11",
-      "display_date": "2025-03-11",
-      "published_at": "2025-03-11T00:00:00Z",
-      "sort_ts": 1741651200000
+      "date": "2026-03-08",
+      "display_date": "2026-03-08",
+      "published_at": "2026-03-08T00:00:00Z",
+      "sort_ts": 1772928000000
     },
     {
       "id": "recvdwjLGwE1tK",
@@ -236,10 +236,10 @@
       "source": "okara.ai",
       "source_host": "okara.ai",
       "url": "https://okara.ai/blog/best-open-source-image-generation-models",
-      "date": "2025-03-11",
-      "display_date": "2025-03-11",
-      "published_at": "2025-03-11T00:00:00Z",
-      "sort_ts": 1741651200000
+      "date": "2026-03-08",
+      "display_date": "2026-03-08",
+      "published_at": "2026-03-08T00:00:00Z",
+      "sort_ts": 1772928000000
     },
     {
       "id": "recvdwjMcmCc9d",
@@ -249,10 +249,36 @@
       "source": "help.aliyun.com",
       "source_host": "help.aliyun.com",
       "url": "https://help.aliyun.com/zh/model-studio/single-agent-application",
-      "date": "2025-03-11",
-      "display_date": "2025-03-11",
-      "published_at": "2025-03-11T00:00:00Z",
-      "sort_ts": 1741651200000
+      "date": "2026-03-08",
+      "display_date": "2026-03-08",
+      "published_at": "2026-03-08T00:00:00Z",
+      "sort_ts": 1772928000000
+    },
+    {
+      "id": "recvdC9NETyCKG",
+      "title": "Claude Haiku 4.5发布：速度翻倍价格大降",
+      "summary": "Anthropic发布Claude Haiku 4.5，速度提升2倍，价格降至每百万输入token 1美元，编程能力显著提升，成为目前最安全的Claude模型",
+      "category": "大模型",
+      "source": "36kr.com",
+      "source_host": "36kr.com",
+      "url": "https://36kr.com/p/3511075105250439",
+      "date": "2025-03-12",
+      "display_date": "2025-03-12",
+      "published_at": "2025-03-12T00:00:00Z",
+      "sort_ts": 1741737600000
+    },
+    {
+      "id": "recvdC9OhzkdXQ",
+      "title": "GPT-5.4 vs Claude Opus 4.6 vs Gemini 3.1 Pro性能对比",
+      "summary": "最新旗舰模型对比显示：GPT-5.4在专业任务达52%成功率，Claude Opus 4.6长文本检索准确率76%，Gemini 3.1 Pro在数据合成和代码生成表现突出",
+      "category": "大模型",
+      "source": "cubed.run",
+      "source_host": "cubed.run",
+      "url": "https://cubed.run/blog/gpt-5-4-vs-claude-opus-4-6-vs-gemini-3-1-pro-vs-grok-4-2-only-one-deserves-your-stack",
+      "date": "2025-03-12",
+      "display_date": "2025-03-12",
+      "published_at": "2025-03-12T00:00:00Z",
+      "sort_ts": 1741737600000
     }
   ]
 }
