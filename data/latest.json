@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_at": "2026-03-12T02:03:01Z",
+  "updated_at": "2026-03-13T02:02:45Z",
   "source": {
     "type": "feishu_bitable",
     "app_token": "WvjAb22kHa5SetsjnSwcfp5Dnef",
@@ -20,6 +20,32 @@
     "行业动态"
   ],
   "news": [
+    {
+      "id": "recvdC9NETyCKG",
+      "title": "Claude Haiku 4.5发布：速度翻倍价格大降",
+      "summary": "Anthropic发布Claude Haiku 4.5，速度提升2倍，价格降至每百万输入token 1美元，编程能力显著提升，成为目前最安全的Claude模型",
+      "category": "大模型",
+      "source": "36kr.com",
+      "source_host": "36kr.com",
+      "url": "https://36kr.com/p/3511075105250439",
+      "date": "2026-03-12",
+      "display_date": "2026-03-12",
+      "published_at": "2026-03-12T00:00:00Z",
+      "sort_ts": 1773273600000
+    },
+    {
+      "id": "recvdC9OhzkdXQ",
+      "title": "GPT-5.4 vs Claude Opus 4.6 vs Gemini 3.1 Pro性能对比",
+      "summary": "最新旗舰模型对比显示：GPT-5.4在专业任务达52%成功率，Claude Opus 4.6长文本检索准确率76%，Gemini 3.1 Pro在数据合成和代码生成表现突出",
+      "category": "大模型",
+      "source": "cubed.run",
+      "source_host": "cubed.run",
+      "url": "https://cubed.run/blog/gpt-5-4-vs-claude-opus-4-6-vs-gemini-3-1-pro-vs-grok-4-2-only-one-deserves-your-stack",
+      "date": "2026-03-11",
+      "display_date": "2026-03-11",
+      "published_at": "2026-03-11T16:00:00Z",
+      "sort_ts": 1773244800000
+    },
     {
       "id": "recvdgChYSzC0p",
       "title": "AI Agent教程：从零打造智能体",
@@ -253,32 +279,6 @@
       "display_date": "2026-03-08",
       "published_at": "2026-03-08T00:00:00Z",
       "sort_ts": 1772928000000
-    },
-    {
-      "id": "recvdC9NETyCKG",
-      "title": "Claude Haiku 4.5发布：速度翻倍价格大降",
-      "summary": "Anthropic发布Claude Haiku 4.5，速度提升2倍，价格降至每百万输入token 1美元，编程能力显著提升，成为目前最安全的Claude模型",
-      "category": "大模型",
-      "source": "36kr.com",
-      "source_host": "36kr.com",
-      "url": "https://36kr.com/p/3511075105250439",
-      "date": "2025-03-12",
-      "display_date": "2025-03-12",
-      "published_at": "2025-03-12T00:00:00Z",
-      "sort_ts": 1741737600000
-    },
-    {
-      "id": "recvdC9OhzkdXQ",
-      "title": "GPT-5.4 vs Claude Opus 4.6 vs Gemini 3.1 Pro性能对比",
-      "summary": "最新旗舰模型对比显示：GPT-5.4在专业任务达52%成功率，Claude Opus 4.6长文本检索准确率76%，Gemini 3.1 Pro在数据合成和代码生成表现突出",
-      "category": "大模型",
-      "source": "cubed.run",
-      "source_host": "cubed.run",
-      "url": "https://cubed.run/blog/gpt-5-4-vs-claude-opus-4-6-vs-gemini-3-1-pro-vs-grok-4-2-only-one-deserves-your-stack",
-      "date": "2025-03-12",
-      "display_date": "2025-03-12",
-      "published_at": "2025-03-12T00:00:00Z",
-      "sort_ts": 1741737600000
     }
   ]
 }
