@@ -1,1 +1,352 @@
-[]
+[
+  {
+    "title": "AI Agent教程：从零打造智能体",
+    "summary": "B站最全AI Agent教程，手把手教你从零开始打造AI智能体",
+    "link": "https://www.bilibili.com/video/BV1skPLzyE8q/",
+    "category": "教程",
+    "date": "2026-03-13"
+  },
+  {
+    "title": "Vercel开源Agent Browser工具",
+    "summary": "比Playwright更省token，使用辅助功能树，大大节约成本",
+    "link": "https://www.bilibili.com/video/BV1qW65BeEFQ/",
+    "category": "开源项目",
+    "date": "2026-03-13"
+  },
+  {
+    "title": "OpenClaw原理精讲与从零手搓",
+    "summary": "详解Agent Skill、无限上下文记忆、自主迭代功能",
+    "link": "https://www.bilibili.com/video/BV1mScqzqEDN/",
+    "category": "教程",
+    "date": "2026-03-13"
+  },
+  {
+    "title": "中国AI Token调用量首超美国",
+    "summary": "2026年2月中国 AI Token 周调用量历史性首次超越美国，映射底层算力、Agent应用生态系统性重构",
+    "link": "https://openaxo.com/innovation/china-ai-token-surpasses-us-2026",
+    "category": "行业动态",
+    "date": "2026-03-13"
+  },
+  {
+    "title": "任泽平2026十大趋势：AI改变世界",
+    "summary": "2026年度预测：AI超级应用爆发，AI中国力量崛起，AI不是风口是海啸",
+    "link": "https://finance.sina.com.cn/wm/2026-03-08/doc-inhqevqz8160191.shtml",
+    "category": "行业分析",
+    "date": "2026-03-13"
+  },
+  {
+    "title": "2026 AI最佳场景渗透案例征集",
+    "summary": "36氪发起2026年度AI最佳场景渗透案例评选，挖掘真正解决行业痛点、产生商业价值的AI应用标杆",
+    "link": "https://www.36kr.com/p/3711294378930306",
+    "category": "行业动态",
+    "date": "2026-03-13"
+  },
+  {
+    "title": "OpenAI发布GPT-5.4 Thinking模型",
+    "summary": "OpenAI在ChatGPT中推出GPT-5.4 Thinking，这是一次重大升级，将高级推理、编程和智能体工作流融合到单一前沿模型中。",
+    "link": "https://releasebot.io/updates/openai",
+    "category": "新模型",
+    "date": "2026-03-13"
+  },
+  {
+    "title": "DeepSeek V4多模态模型即将发布",
+    "summary": "DeepSeek V4预计将于2026年3月第一周发布，作为统一多模态AI系统，能够在单一架构中生成文本、图像和视频。",
+    "link": "https://evermx.com/case/deepseek-v4-multimodal-march-2026-launch",
+    "category": "多模态",
+    "date": "2026-03-13"
+  },
+  {
+    "title": "阿里千问Qwen3.5多模态大模型开源",
+    "summary": "阿里千问发布Qwen3.5 0.8B-9B多模态小模型集体开源，性能逆天还能本地运行，视觉+语言双强，运行丝滑省显存。",
+    "link": "https://www.bilibili.com/video/BV1WDAozxEEB/",
+    "category": "开源",
+    "date": "2026-03-13"
+  },
+  {
+    "title": "Claude 2026年最新模型版本解读",
+    "summary": "2026年Claude模型分为Haiku、Sonnet和Opus系列，最新4.x和4.5版本提供更强的推理和编程能力。",
+    "link": "https://www.promptnest.info/blog/current-claude-ai-model-versions-2026",
+    "category": "大模型",
+    "date": "2026-03-13"
+  },
+  {
+    "title": "GPT-6和Claude 5预计2026年发布",
+    "summary": "根据开发模式和基础设施部署，GPT-6最可能在2026年5-7月发布，Sam Altman表示等待时间将短于GPT-4到GPT-5的28个月间隔。",
+    "link": "https://markaicode.com/gpt6-claude5-predictions-2026/",
+    "category": "行业",
+    "date": "2026-03-13"
+  },
+  {
+    "title": "字节跳动Seedance 2.0引领2026视频生成竞赛",
+    "summary": "字节跳动2026年初发布的Seedance 2.0在AI视频生成领域表现突出，与Veo 3.1、Sora 2 Pro形成三足鼎立格局。",
+    "link": "https://guruhitech.com/how-seedance-2-0-reframed-the-2026-video-race/",
+    "category": "多模态",
+    "date": "2026-03-13"
+  },
+  {
+    "title": "苹果计划在设备中集成Gemini AI模型",
+    "summary": "2026年1月12日，苹果宣布计划在产品中使用Gemini AI模型，标志着苹果在AI领域的重要战略布局。",
+    "link": "https://en.wikipedia.org/wiki/Gemini_(language_model)",
+    "category": "行业",
+    "date": "2026-03-13"
+  },
+  {
+    "title": "Anthropic超级碗投放Claude广告",
+    "summary": "2026年2月，Anthropic在超级碗期间投放了两条Claude广告，并宣布与Snowflake达成2亿美元多年合作。",
+    "link": "https://en.wikipedia.org/wiki/Anthropic",
+    "category": "行业",
+    "date": "2026-03-13"
+  },
+  {
+    "title": "印度Sarvam发布开源AI模型挑战Gemini和DeepSeek",
+    "summary": "印度Sarvam发布30B和105B参数的开源AI模型，声称105B模型在印度语言技术基准测试上超越Gemini 2.5 Flash和DeepSeek R1。",
+    "link": "https://indianexpress.com/article/technology/artificial-intelligence/sarvam-releases-open-weight-models-ai-summit-deepseek-gemini-10571340/",
+    "category": "开源",
+    "date": "2026-03-13"
+  },
+  {
+    "title": "2026年生成式AI聊天机器人市场份额报告",
+    "summary": "截至2026年3月2日，ChatGPT仍是市场领导者，但增长放缓，Google等竞争对手正在加速追赶。",
+    "link": "https://firstpagesage.com/reports/top-generative-ai-chatbots/",
+    "category": "行业分析",
+    "date": "2026-03-08"
+  },
+  {
+    "title": "Flux 2 Dev开源图像生成模型发布",
+    "summary": "Black Forest Labs发布Flux 2 Dev，最适合可编程高质量图像生成，能更准确地渲染文本和复杂人体结构，配合Mistral Small视觉语言模型更好地理解提示词。",
+    "link": "https://okara.ai/blog/best-open-source-image-generation-models",
+    "category": "开源",
+    "date": "2026-03-08"
+  },
+  {
+    "title": "阿里云百炼智能体(Agent)应用指南",
+    "summary": "阿里云百炼提供智能体应用，支持零代码方式将大模型与外部工具集成，扩展模型能力边界，解决LLM无法访问专有知识库和实时信息的问题。",
+    "link": "https://help.aliyun.com/zh/model-studio/single-agent-application",
+    "category": "Agent",
+    "date": "2026-03-08"
+  },
+  {
+    "title": "Claude Haiku 4.5发布：速度翻倍价格大降",
+    "summary": "Anthropic发布Claude Haiku 4.5，速度提升2倍，价格降至每百万输入token 1美元，编程能力显著提升，成为目前最安全的Claude模型",
+    "link": "https://36kr.com/p/3511075105250439",
+    "category": "大模型",
+    "date": "2026-03-12"
+  },
+  {
+    "title": "GPT-5.4 vs Claude Opus 4.6 vs Gemini 3.1 Pro性能对比",
+    "summary": "最新旗舰模型对比显示：GPT-5.4在专业任务达52%成功率，Claude Opus 4.6长文本检索准确率76%，Gemini 3.1 Pro在数据合成和代码生成表现突出",
+    "link": "https://cubed.run/blog/gpt-5-4-vs-claude-opus-4-6-vs-gemini-3-1-pro-vs-grok-4-2-only-one-deserves-your-stack",
+    "category": "大模型",
+    "date": "2026-03-12"
+  },
+  {
+    "title": "美国参议院批准Gemini、ChatGPT和Copilot使用",
+    "summary": "美国参议院信息官发布备忘录，批准Google Gemini、OpenAI ChatGPT和Microsoft Copilot用于参议院工作，同时国务院停用Claude模型",
+    "link": "https://www.techradar.com/pro/anthropics-claude-models-are-no-longer-available-us-state-department-ditches-claude-on-the-orders-of-trump-while-senate-approves-gemini-chatgpt-and-copilot-for-use",
+    "category": "行业",
+    "date": "2026-03-12"
+  },
+  {
+    "title": "Kimi K2.5推出零视觉监督微调和Agent Swarm",
+    "summary": "月之暗面发布Kimi K2.5，引入零视觉监督微调技术和Agent Swarm架构，在Agent层面性能可能超越即将发布的DeepSeek-V4",
+    "link": "https://www.bilibili.com/video/BV1NoZCBjEZY/",
+    "category": "Agent",
+    "date": "2026-03-12"
+  },
+  {
+    "title": "2026 AI场景渗透三大驱动力：Agent编排、多模态、标准化",
+    "summary": "贝恩公司指出AI场景渗透核心驱动力集中在Agent编排、多模态数据感知执行、软硬件接口协议标准化三方面，设备端实时决策对制造医疗智能终端意义重大",
+    "link": "https://www.36kr.com/p/3711294378930306",
+    "category": "行业",
+    "date": "2026-03-12"
+  },
+  {
+    "title": "开源大模型快速缩小与闭源模型差距",
+    "summary": "中国实验室DeepSeek、阿里巴巴、字节跳动在推理和编程任务上快速追赶美国实验室，Llama、Mistral和Qwen在多项基准测试上已达到或超越GPT-4水平",
+    "link": "https://llm-stats.com/ai-trends",
+    "category": "开源",
+    "date": "2026-03-12"
+  },
+  {
+    "title": "2026本地编程模型基准测试：Qwen、DeepSeek、Llama对比",
+    "summary": "本地编程模型基准测试显示：Qwen2.5-Coder 32B可在单块24GB GPU上运行，DeepSeek-R1和Llama 3.1 405B适合批处理任务，MiniMax 2.5在实时代码生成上表现优异",
+    "link": "https://www.sitepoint.com/minimax-vs-llama-vs-deepseek-coding-benchmark-2026/",
+    "category": "开源",
+    "date": "2026-03-12"
+  },
+  {
+    "title": "阿里云Qwen构建全面开源AI生态系统",
+    "summary": "阿里云通过Qwen模型家族构建了全球最全面的开源AI生态系统之一，基于Qwen2.5训练的QwQ推理模型在数学代码核心指标上达到DeepSeek-R1水平",
+    "link": "https://www.experts-exchange.com/articles/40834/Comparing-Leading-LLMs-with-China's-DeepSeek-Alibaba-Cloud-AI.html",
+    "category": "开源",
+    "date": "2026-03-12"
+  },
+  {
+    "title": "2026最佳开源推理模型排名发布",
+    "summary": "2026年最佳开源推理模型排名：复杂数学问题选择Deepseek R1、Intellect-3或GLM 4.7，资源有限团队适合Intellect-3、量化Qwen和Mistral Small",
+    "link": "https://okara.ai/blog/best-open-source-reasoning-models",
+    "category": "开源",
+    "date": "2026-03-12"
+  },
+  {
+    "title": "阿里云万相2.6推出图生视频多镜头叙事",
+    "summary": "阿里云万相2.6发布图生视频功能，支持智能分镜调度和多镜头叙事，提供更高品质声音生成和多人稳定对话，最长支持15秒视频生成",
+    "link": "https://cn.aliyun.com/product/tongyi",
+    "category": "多模态",
+    "date": "2026-03-12"
+  },
+  {
+    "title": "AI聊天机器人安全漏洞研究发布",
+    "summary": "研究显示ChatGPT、Gemini等AI聊天机器人可能帮助用户计划暴力攻击，Meta、Microsoft、Google和OpenAI已实施修复和新安全功能",
+    "link": "https://mobilesyrup.com/2026/03/11/ai-chatbot-chatgpt-gemini-plan-violent-attacks-study/",
+    "category": "安全",
+    "date": "2026-03-12"
+  },
+  {
+    "title": "2026最佳开源图像生成模型发布",
+    "summary": "2026年最佳开源图像生成模型发布，包括基于MMDiT架构的70亿参数模型，配备80亿Qwen3-VL编码器，在图像生成质量上达到新高度",
+    "link": "https://okara.ai/blog/best-open-source-image-generation-models",
+    "category": "多模态",
+    "date": "2026-03-12"
+  },
+  {
+    "title": "大模型在核电领域带来知识平权变革",
+    "summary": "宁德核电人工智能实验室负责人表示，大模型的出现带来了变革，实现了知识平权，使得核电领域能够参与到AI应用中，过去看似不可能的事情变为了可能",
+    "link": "https://www.36kr.com/p/2840260268280708",
+    "category": "行业",
+    "date": "2026-03-12"
+  },
+  {
+    "title": "任泽平2026十大趋势：AI改变世界",
+    "summary": "2026将发生七件大事：大周期末期、地缘动荡加大，全球降息放水，AI超级应用爆发，AI中国力量崛起，股市信心牛，大宗商品元年，楼市二八分化。任泽平提醒：AI不是风口，是海啸。",
+    "link": "https://finance.sina.com.cn/wm/2026-03-15/doc-inhqytnf0124184.shtml",
+    "category": "行业分析",
+    "date": "2026-03-15"
+  },
+  {
+    "title": "每日AI必读资讯：AI在传统行业规模化应用",
+    "summary": "2026年3月14日，AI领域热点资讯频现，涵盖农业、医疗、家电、汽车、监管、技术发展、产业生态等多个方面。AI在养猪业等传统行业的规模化应用展现科技觉醒，但OpenClaw等智能体安全风险需警惕。",
+    "link": "https://news.softunis.com/53395.html",
+    "category": "行业动态",
+    "date": "2026-03-15"
+  },
+  {
+    "title": "2026中国科创领军企业：联想华为寒武纪上榜",
+    "summary": "十大权威榜单印证：联想、华为、寒武纪、地平线等企业成功上榜，其中联想在榜单中位居前列，聚焦通用人工智能与算力芯片赛道，依托智算平台技术与VR/AR创新成果。",
+    "link": "https://finance.sina.com.cn/tjhz/2026-03-14/doc-inhqxmsr7298551.shtml",
+    "category": "产业动态",
+    "date": "2026-03-15"
+  },
+  {
+    "title": "OpenClaw智能体安全风险预警，工信部发布提示",
+    "summary": "开源AI智能体OpenClaw因赋予大模型手脚实现指令自动执行，存在系统安全风险。工信部及NVDB发布风险预警，指出不当配置下可被黑客利用实现终端被控、数据泄露。",
+    "link": "https://news.softunis.com/53395.html",
+    "category": "安全",
+    "date": "2026-03-15"
+  },
+  {
+    "title": "马斯克宣布xAI彻底重建，多名联创离职",
+    "summary": "埃隆·马斯克承认xAI首次搭建方式不正确，需从根基开始彻底重建。多名联合创始人近期离职，包括Zihang Dai、Guodong Zhang等。",
+    "link": "https://news.softunis.com/53395.html",
+    "category": "企业动态",
+    "date": "2026-03-15"
+  },
+  {
+    "title": "特斯拉与xAI合作开发数字擎天柱",
+    "summary": "马斯克透露特斯拉与xAI合作开发数字擎天柱项目，结合格罗克大型语言模型和特斯拉AI智能体，可代理人类实时分析电脑屏幕视频并执行键盘和鼠标操作。",
+    "link": "https://news.softunis.com/53395.html",
+    "category": "企业动态",
+    "date": "2026-03-15"
+  },
+  {
+    "title": "欧盟简化AI监管规则，禁止AI生成色情内容",
+    "summary": "欧盟理事会就简化部分AI监管规则达成一致，涉及高风险AI系统监管规则适用时间推迟、部分企业监管豁免范围扩大、强化欧盟AI办公室权力等。同时禁止利用AI生成色情内容。",
+    "link": "https://news.softunis.com/53395.html",
+    "category": "政策法规",
+    "date": "2026-03-15"
+  },
+  {
+    "title": "OpenAI退役GPT-5.1系列模型",
+    "summary": "2026年3月11日起，GPT-5.1 Instant、GPT-5.1 Thinking和GPT-5.1 Pro不再可用，对话自动迁移至GPT-5.3或GPT-5.4版本",
+    "link": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+    "category": "大模型",
+    "date": "2026-03-18"
+  },
+  {
+    "title": "英伟达发布2026 AI状态报告",
+    "summary": "企业AI实验在2026年初转为全面部署，涵盖代码开发、法律、财务、行政支持等领域，推动收入增长、成本削减和生产力提升",
+    "link": "https://blogs.nvidia.com/blog/state-of-ai-report-2026/",
+    "category": "行业",
+    "date": "2026-03-18"
+  },
+  {
+    "title": "马斯克宣布特斯拉AI芯片工厂7天内启动",
+    "summary": "特斯拉大型AI芯片制造项目即将启动，加速AI基础设施建设",
+    "link": "https://www.reuters.com/technology/artificial-intelligence/",
+    "category": "企业动态",
+    "date": "2026-03-18"
+  },
+  {
+    "title": "GitHub推出Repository Intelligence功能",
+    "summary": "2026年AI不仅理解代码行，还能理解代码库的关系和历史，实现仓库级智能",
+    "link": "https://news.microsoft.com/source/features/ai/whats-next-in-ai-7-trends-to-watch-in-2026/",
+    "category": "工具",
+    "date": "2026-03-18"
+  },
+  {
+    "title": "研究发现AI聊天机器人可能引发精神病症状",
+    "summary": "首个关于'AI精神病'的重大研究表明，聊天机器人可能在脆弱人群中鼓励妄想",
+    "link": "https://www.theguardian.com/technology/artificialintelligenceai",
+    "category": "安全",
+    "date": "2026-03-18"
+  },
+  {
+    "title": "MIT科技评论：中国开源模型差距持续缩小",
+    "summary": "2026年预计更多硅谷应用将基于中国开源模型构建，中国与西方前沿模型的差距从数月缩短至数周",
+    "link": "https://www.technologyreview.com/2026/01/05/1130662/whats-next-for-ai-in-2026/",
+    "category": "开源",
+    "date": "2026-03-18"
+  },
+  {
+    "title": "Google构建出版商AI退出机制",
+    "summary": "Google高管表示构建细粒度退出机制是重大工程挑战，允许出版商排除AI概览内容而不影响传统搜索",
+    "link": "https://www.marketingprofs.com/opinions/2026/54328/ai-update-february-20-2026-ai-news-and-views-from-the-past-week",
+    "category": "政策",
+    "date": "2026-03-18"
+  },
+  {
+    "title": "微软AI助手新增健康监测功能",
+    "summary": "微软升级AI助手增加健康跟踪功能，跟随Amazon和OpenAI的步伐",
+    "link": "https://www.nytimes.com/spotlight/artificial-intelligence",
+    "category": "健康",
+    "date": "2026-03-18"
+  },
+  {
+    "title": "MIT预测2026年AI五大趋势",
+    "summary": "MIT专家预测2026年AI泡沫破裂对经济造成冲击，AI工厂基础设施增长，更关注数据质量",
+    "link": "https://sloanreview.mit.edu/article/five-trends-in-ai-and-data-science-for-2026/",
+    "category": "行业分析",
+    "date": "2026-03-18"
+  },
+  {
+    "title": "中国AI公司市值飙升：智谱、MiniMax、Kimi",
+    "summary": "智谱AI市值突3232亿港元，MiniMax达3042亿，Kimi冲击1000亿估值，中国AI公司迎来资本市场高光时刻",
+    "link": "https://www.pingwest.com/a/311569",
+    "category": "企业动态",
+    "date": "2026-03-18"
+  },
+  {
+    "title": "DeepSeek V4读秒：中国AI公司抢跑",
+    "summary": "DeepSeek V4发布倒计时，各家AI公司抢先亮出底牌。Kimi、智谱借力资本市场实现市值跃迁",
+    "link": "https://m.thepaper.cn/newsDetail_forward_32442099",
+    "category": "产业动态",
+    "date": "2026-03-18"
+  },
+  {
+    "title": "国产大模型Token消耗首超美国",
+    "summary": "2026年2月9-15日，国产大模型Token消耗量首次超过美国，后续优势持续扩大，Token出海成为趋势",
+    "link": "https://www.stcn.com/article/detail/3654871.html",
+    "category": "产业动态",
+    "date": "2026-03-18"
+  }
+]
