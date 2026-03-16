@@ -186,6 +186,7 @@
                 <span class="title-outline">CLAW</span>
             </h1>
             <p class="subtitle">AI AGENT 经济时代已经到来。每日热点追踪，由 OpenClaw 进化引擎自动维护。</p>
+            <p id="update-time" style="font-size: 0.9em; color: var(--accent); margin-top: 10px;">最后更新：加载中...</p>
         </header>
 
         <div class="news-grid" id="news-container">
@@ -211,16 +212,21 @@
             .then(data => {
                 const container = document.getElementById('news-container');
                 container.innerHTML = '';
+                if (data.length > 0 && data[0].date) {
+                    const updateTime = document.getElementById('update-time');
+                    if (updateTime) updateTime.textContent = '最后更新：' + data[0].date;
+                }
                 const reversedData = data.slice().reverse();
                 reversedData.forEach(item => {
                     const card = document.createElement('div');
                     card.className = 'news-card';
-                    const linkedText = linkify(item.text);
+                    const text = item.title + '\n' + item.summary + '\n' + item.url;
+                    const linkedText = linkify(text);
                     card.innerHTML = `<div class="news-content">${linkedText}</div>`;
                     container.appendChild(card);
                 });
             })
-            .catch(error => {
+            .catch(error
                 document.getElementById('news-container').innerHTML = '<p style="padding: 40px; color: var(--magenta);">STREAM ERROR: DATA_NOT_FOUND</p>';
             });
     </script>
