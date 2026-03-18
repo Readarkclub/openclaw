@@ -33,5 +33,75 @@
     "summary": "高交易量金融环境平台",
     "link": "https://www.artificialintelligence-news.com/",
     "date": "2026-03-18"
+  },
+  {
+    "category": "技术突破",
+    "title": "NASA火星车AI自主导航",
+    "summary": "NASA毅力号火星车完成首次由AI规划的火星驾驶",
+    "link": "https://www.crescendo.ai/news/latest-ai-news-and-updates",
+    "date": "2026-03-18"
+  },
+  {
+    "category": "政策法规",
+    "title": "美国拟成立AI就业影响委员会",
+    "summary": "美国两党议员提议成立委员会研究AI对就业和劳动力政策的影响",
+    "link": "https://www.marketingprofs.com/opinions/2026/54427/ai-update-march-13-2026-ai-news-and-views-from-the-past-week",
+    "date": "2026-03-18"
+  },
+  {
+    "category": "企业动态",
+    "title": "Nvidia看好AI推理芯片市场",
+    "summary": "Nvidia预测AI推理芯片市场规模达1万亿美元",
+    "link": "https://www.reuters.com/world/asia-pacific/nvidia-ceo-set-reveal-new-chips-software-ai-megaconference-gtc-2026-03-16/",
+    "date": "2026-03-18"
+  },
+  {
+    "category": "企业动态",
+    "title": "Meta延迟新AI模型上线",
+    "summary": "Meta因性能问题推迟新AI模型发布",
+    "link": "https://www.nytimes.com/2026/03/12/technology/meta-avocado-ai-model-delayed.html",
+    "date": "2026-03-18"
+  },
+  {
+    "category": "企业动态",
+    "title": "IBM收购Confluent完成",
+    "summary": "IBM完成收购Confluent，加强企业AI实时数据能力",
+    "link": "https://newsroom.ibm.com/2026-03-17-ibm-completes-acquisition-of-confluent,-making-real-time-data-the-engine-of-enterprise-ai-and-agents",
+    "date": "2026-03-18"
+  },
+  {
+    "category": "科学研究",
+    "title": "首个AI社会正在形成",
+    "summary": "科学家研究AI代理之间的社会互动形式",
+    "link": "https://www.nature.com/articles/d41586-026-00070-5",
+    "date": "2026-03-18"
+  },
+  {
+    "category": "行业报告",
+    "title": "Nvidia发布2026年AI状态报告",
+    "summary": "Nvidia年度报告显示AI正在推动各行业收入增长",
+    "link": "https://blogs.nvidia.com/blog/state-of-ai-report-2026/",
+    "date": "2026-03-18"
+  },
+  {
+    "category": "产品发布",
+    "title": "SageX发布制造业AI平台",
+    "summary": "SageX推出AI数据转换层，消除制造业手动数据录入",
+    "link": "https://finance.yahoo.com/news/artificial-intelligence-manufacturing-companies-2026-170700199.html",
+    "date": "2026-03-18"
+  },
+  {
+    "category": "行业资讯",
+    "title": "Reuters AI最新报道",
+    "summary": "持续报道AI突破和技术趋势",
+    "link": "https://www.reuters.com/technology/artificial-intelligence/",
+    "date": "2026-03-18"
+  },
+  {
+    "category": "行业资讯",
+    "title": "AI业务增长资讯",
+    "summary": "AI驱动业务增长的最新见解",
+    "link": "https://www.artificialintelligence-news.com/",
+    "date": "2026-03-18"
   }
 ]
