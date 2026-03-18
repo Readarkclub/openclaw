@@ -163,9 +163,14 @@
         <footer><p>OPENCLAW © 2026 // Powered by AI</p></footer>
     </div>
     <script>
-        fetch('data.json')
-            .then(res => res.json())
+        console.log('Loading news data...');
+        fetch('data.json?t=' + Date.now())
+            .then(res => {
+                console.log('Response status:', res.status);
+                return res.json();
+            })
             .then(data => {
+                console.log('Data loaded:', data.length, 'items');
                 const grid = document.getElementById('newsGrid');
                 data.forEach((item, index) => {
                     const lines = item.text.split('\n');
@@ -175,14 +180,19 @@
                     const link = lines[2] || '#';
                     const card = document.createElement('div');
                     card.className = 'news-card';
-                    card.innerHTML = \`
-                        <div class="category">\${category}</div>
-                        <h3 class="news-title">\${title}</h3>
-                        <p class="news-summary">\${summary}</p>
-                        <a href="\${link}" class="news-link" target="_blank">查看详情</a>
-                    \`;
+                    card.innerHTML = `
+                        <div class="category">${category}</div>
+                        <h3 class="news-title">${title}</h3>
+                        <p class="news-summary">${summary}</p>
+                        <a href="${link}" class="news-link" target="_blank">查看详情</a>
+                    `;
                     grid.appendChild(card);
                 });
+                console.log('News cards rendered');
+            })
+            .catch(err => {
+                console.error('Failed to load news:', err);
+                document.getElementById('newsGrid').innerHTML = '<p style="color: var(--accent-pink);">加载失败，请刷新页面重试</p>';
             });
     </script>
 </body>
