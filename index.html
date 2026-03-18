@@ -2,232 +2,187 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>OPENCLAW // SYSTEM ONLINE</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OPENCLAW // AI NEWS FEED</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@800&display=swap" rel="stylesheet">
     <style>
         :root {
-            --bg: #020617;
-            --accent: #22d3ee;
-            --accent-dim: rgba(34, 211, 238, 0.1);
-            --magenta: #f472b6;
-            --grid: rgba(34, 211, 238, 0.05);
+            --bg-dark: #0a0e27;
+            --bg-card: #141b3d;
+            --accent-cyan: #00fff5;
+            --accent-pink: #ff006e;
+            --accent-yellow: #ffbe0b;
+            --text-primary: #e8f4f8;
+            --text-dim: #8892b0;
+            --border: rgba(0, 255, 245, 0.2);
         }
-
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        
         body {
-            font-family: 'JetBrains Mono', monospace;
-            background-color: var(--bg);
-            background-image: 
-                linear-gradient(var(--grid) 1px, transparent 1px),
-                linear-gradient(90deg, var(--grid) 1px, transparent 1px);
-            background-size: 50px 50px;
-            color: #f8fafc;
+            font-family: 'Space Mono', monospace;
+            background: var(--bg-dark);
+            color: var(--text-primary);
             min-height: 100vh;
             overflow-x: hidden;
-            padding: 20px;
-            line-height: 1.5;
+            position: relative;
         }
-
-        /* Scanline effect */
-        body::after {
-            content: " ";
-            display: block;
+        body::before {
+            content: '';
             position: fixed;
-            top: 0; left: 0; bottom: 0; right: 0;
-            background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.1) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.02), rgba(0, 255, 0, 0.01), rgba(0, 0, 255, 0.02));
-            z-index: 9999;
-            pointer-events: none;
-            background-size: 100% 4px, 3px 100%;
+            top: -50%; left: -50%;
+            width: 200%; height: 200%;
+            background: 
+                radial-gradient(circle at 20% 50%, rgba(0, 255, 245, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(255, 0, 110, 0.1) 0%, transparent 50%);
+            animation: drift 20s ease-in-out infinite;
+            z-index: 0;
         }
-
-        .container {
-            max-width: 1400px;
-            margin: 0 auto;
-            position: relative;
-            z-index: 10;
+        @keyframes drift {
+            0%, 100% { transform: translate(0, 0); }
+            50% { transform: translate(5%, 5%); }
         }
-
-        header {
-            padding: 60px 0;
-            border-bottom: 1px solid var(--accent-dim);
-            margin-bottom: 60px;
-            position: relative;
+        .container { max-width: 1200px; margin: 0 auto; padding: 40px 20px; position: relative; z-index: 1; }
+        header { margin-bottom: 80px; text-align: center; }
+        .status-badge {
+            display: inline-block;
+            font-size: 11px;
+            letter-spacing: 3px;
+            color: var(--accent-cyan);
+            border: 1px solid var(--accent-cyan);
+            padding: 8px 16px;
+            margin-bottom: 30px;
+            animation: pulse 2s ease-in-out infinite;
         }
-
-        .system-status {
-            font-size: 10px;
-            color: var(--accent);
-            letter-spacing: 2px;
-            margin-bottom: 20px;
-            display: block;
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
         }
-
         h1 {
-            font-family: 'Inter', sans-serif;
-            font-weight: 900;
-            font-size: clamp(3rem, 12vw, 10rem);
-            line-height: 0.8;
-            letter-spacing: -0.05em;
-            text-transform: uppercase;
+            font-family: 'Syne', sans-serif;
+            font-weight: 800;
+            font-size: clamp(3rem, 10vw, 7rem);
+            line-height: 0.9;
             margin-bottom: 20px;
+            background: linear-gradient(135deg, var(--accent-cyan), var(--accent-pink), var(--accent-yellow));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: gradient-shift 8s ease infinite;
+            background-size: 200% 200%;
         }
-
-        .title-outline {
-            display: block;
-            color: transparent;
-            -webkit-text-stroke: 1px rgba(255,255,255,0.2);
+        @keyframes gradient-shift {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
         }
-
-        .title-solid {
-            display: block;
-            color: #fff;
-            text-shadow: 0 0 20px rgba(34, 211, 238, 0.3);
-        }
-
-        .subtitle {
-            font-size: 1.2rem;
-            color: var(--accent);
-            opacity: 0.8;
-            max-width: 600px;
-            border-left: 3px solid var(--magenta);
-            padding-left: 20px;
-        }
-
+        .subtitle { font-size: 1.1rem; color: var(--text-dim); max-width: 600px; margin: 0 auto; }
         .news-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-            gap: 1px;
-            background: var(--accent-dim);
-            border: 1px solid var(--accent-dim);
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 30px;
+            margin-top: 60px;
         }
-
         .news-card {
-            background: var(--bg);
+            background: var(--bg-card);
+            border: 1px solid var(--border);
             padding: 30px;
-            transition: all 0.3s ease;
             position: relative;
             overflow: hidden;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         }
-
         .news-card::before {
-            content: "///";
+            content: '';
             position: absolute;
-            top: 10px;
-            right: 10px;
-            font-size: 10px;
-            color: var(--accent);
-            opacity: 0.3;
+            top: 0; left: 0;
+            width: 100%; height: 3px;
+            background: linear-gradient(90deg, var(--accent-cyan), var(--accent-pink));
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform 0.3s ease;
         }
-
         .news-card:hover {
-            background: rgba(34, 211, 238, 0.05);
+            transform: translateY(-5px);
+            border-color: var(--accent-cyan);
+            box-shadow: 0 10px 40px rgba(0, 255, 245, 0.2);
         }
-
-        .news-card:hover::after {
-            content: "";
-            position: absolute;
-            top: 0; left: 0; width: 100%; height: 2px;
-            background: var(--accent);
-            box-shadow: 0 0 15px var(--accent);
-            animation: scan 2s linear infinite;
-        }
-
-        @keyframes scan {
-            0% { transform: translateY(-100%); }
-            100% { transform: translateY(400px); }
-        }
-
-        .news-content {
-            font-size: 0.95rem;
-            color: #cbd5e1;
-            white-space: pre-wrap;
-            word-break: break-word;
-        }
-
-        .news-content a {
-            color: var(--accent);
-            text-decoration: none;
-            font-weight: bold;
+        .news-card:hover::before { transform: scaleX(1); }
+        .category {
             display: inline-block;
-            margin-top: 10px;
-            border-bottom: 1px solid transparent;
+            font-size: 10px;
+            letter-spacing: 2px;
+            color: var(--accent-yellow);
+            border: 1px solid var(--accent-yellow);
+            padding: 4px 12px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
         }
-
-        .news-content a:hover {
-            border-bottom: 1px solid var(--accent);
+        .news-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 12px;
+            line-height: 1.3;
         }
-
-        .footer {
+        .news-summary {
+            font-size: 0.9rem;
+            color: var(--text-dim);
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .news-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.85rem;
+            color: var(--accent-cyan);
+            text-decoration: none;
+            transition: gap 0.3s ease;
+        }
+        .news-link:hover { gap: 12px; }
+        .news-link::after { content: '→'; font-size: 1.2rem; }
+        footer {
             margin-top: 100px;
             padding: 40px 0;
-            border-top: 1px solid var(--accent-dim);
-            font-size: 12px;
-            color: #64748b;
-            display: flex;
-            justify-content: space-between;
+            text-align: center;
+            border-top: 1px solid var(--border);
+            color: var(--text-dim);
+            font-size: 0.85rem;
         }
-
         @media (max-width: 768px) {
-            .news-grid { grid-template-columns: 1fr; }
-            h1 { font-size: 4rem; }
+            .news-grid { grid-template-columns: 1fr; gap: 20px; }
+            h1 { font-size: 3rem; }
         }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
-            <span class="system-status">/// LOGGING_NODE: OPENCLAW_CORE_V2.5 // STATUS: ONLINE</span>
-            <h1>
-                <span class="title-solid">OPEN</span>
-                <span class="title-outline">CLAW</span>
-            </h1>
-            <p class="subtitle">AI AGENT 经济时代已经到来。每日热点追踪，由 OpenClaw 进化引擎自动维护。</p>
-            <p id="update-time" style="font-size: 0.9em; color: var(--accent); margin-top: 10px;">最后更新：加载中...</p>
+            <div class="status-badge">SYSTEM ONLINE</div>
+            <h1>OPENCLAW</h1>
+            <p class="subtitle">AI News Feed // Real-time Intelligence Stream</p>
         </header>
-
-        <div class="news-grid" id="news-container">
-            <p style="padding: 40px; color: var(--accent);">INITIALIZING DATA STREAM...</p>
-        </div>
-
-        <div class="footer">
-            <span>SOURCE: FEISHU_BITABLE_WvjAb...</span>
-            <span>BUILD: 2026.02.24 // UTC</span>
-        </div>
+        <div class="news-grid" id="newsGrid"></div>
+        <footer><p>OPENCLAW © 2026 // Powered by AI</p></footer>
     </div>
-
     <script>
-        function linkify(text) {
-            const urlRegex = /(https?:\/\/[^\s]+)/g;
-            return text.replace(urlRegex, function(url) {
-                return '<br><a href="' + url + '" target="_blank">GO TO SOURCE _</a>';
-            });
-        }
-
         fetch('data.json')
-            .then(response => response.json())
+            .then(res => res.json())
             .then(data => {
-                const container = document.getElementById('news-container');
-                container.innerHTML = '';
-                if (data.length > 0 && data[0].date) {
-                    const updateTime = document.getElementById('update-time');
-                    if (updateTime) updateTime.textContent = '最后更新：' + data[0].date;
-                }
-                const reversedData = data.slice().reverse();
-                reversedData.forEach(item => {
+                const grid = document.getElementById('newsGrid');
+                data.forEach((item, index) => {
+                    const lines = item.text.split('\n');
+                    const category = lines[0].match(/【(.+?)】/)?.[1] || '资讯';
+                    const title = lines[0].replace(/【.+?】/, '').trim();
+                    const summary = lines[1] || '';
+                    const link = lines[2] || '#';
                     const card = document.createElement('div');
                     card.className = 'news-card';
-                    const text = item.title + '\n' + item.summary + '\n' + item.url;
-                    const linkedText = linkify(text);
-                    card.innerHTML = `<div class="news-content">${linkedText}</div>`;
-                    container.appendChild(card);
+                    card.innerHTML = \`
+                        <div class="category">\${category}</div>
+                        <h3 class="news-title">\${title}</h3>
+                        <p class="news-summary">\${summary}</p>
+                        <a href="\${link}" class="news-link" target="_blank">查看详情</a>
+                    \`;
+                    grid.appendChild(card);
                 });
-            })
-            .catch(error
-                document.getElementById('news-container').innerHTML = '<p style="padding: 40px; color: var(--magenta);">STREAM ERROR: DATA_NOT_FOUND</p>';
             });
     </script>
 </body>
